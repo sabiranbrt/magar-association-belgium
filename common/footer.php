@@ -100,13 +100,10 @@
 <script src="assets/js/jquery.js"></script>
 
 <!-- Bootstrap 5.3.3  -->
-<script src="assets/js/bootstrap.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
 <!-- Font Awesome 6.5.2  -->
 <script src="assets/js/all.min.js"></script>
-
-<!-- WOW counter  -->
-<script src="assets/js/counter.js"></script>
 
 <!-- Custom Script  -->
 <script type="text/javascript" src="assets/js/main.js"></script>

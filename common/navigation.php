@@ -1,4 +1,3 @@
-<link rel="stylesheet" href="assets/css/similar/_navigation.scss">
 
 <div class="topnav">
     <div class="topnav-header">
@@ -15,20 +14,21 @@
             <div class="main-nav nav-fix">
                 <div class="nav-items">
                     <ul>
-                        <li><a><i class="fa-solid fa-house"></i></a></li>
-                        <li><a href="about.php">About Us</a></li>
-                        <li><a href="program.php">Program</a></li>
-                        <li><a href="gallery.php">Gallery</a></li>
-                        <li><a href="blogs.php">News & Blogs</a></li>
-                        <li><a href="contact.php">Contact Us</a></li>
+                        <!-- <li><a><i class="fa-solid fa-house"></i></a></li> -->
+                        <li role="list"><a href="index.php"><img src="assets/icon/homeicon.svg" /></a></li>
+                        <li role="list"><a href="about.php">About Us</a></li>
+                        <li role="list"><a href="program.php">Program</a></li>
+                        <li role="list"><a href="gallery.php">Gallery</a></li>
+                        <li role="list"><a href="blogs.php">News & Blogs</a></li>
+                        <li role="list"><a href="contact.php">Contact Us</a></li>
                     </ul>
                 </div>
-                <div class="donar-items">
-                    <div class="fa fa-list-ul"></div>
-                    <div class="donar-text">
-                        <p>DONOR LIST</p>
+                <a href="#" class="donar-btn">
+                    <div class="icon-list">
+                        <img src="assets/icon/listicon.svg"/>
                     </div>
-                </div>
+                        <p>Donar List</p>
+                </a>
             </div>
         </div>
     </div>

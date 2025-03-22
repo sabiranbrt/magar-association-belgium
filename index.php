@@ -1,17 +1,25 @@
 <?php include 'common/header.php'; ?>
 <?php include 'common/navigation.php'; ?>
 
+
+<!-- header banner -->
 <div class="bg-container">
     <div class="bg-img">
         <div class="img-steaker">
             <img src="assets/image/wall/wall.png" alt="bg-wall">
-            <img class="png-img-i" src="assets/image/wall/wall-i.png" alt="left-wall-staker">
-            <img class="png-img-ii" src="assets/image/wall/wall-i.png" alt="left-wall-staker">
+            <div class="bg-color"></div>
         </div>
         <div class="bg-lt-rt">
             <div class="container">
                 <div class="bg-lt-rt-main">
+                <div class="right_image">
+                        <img class="png-img-ii" src="assets/image/wall/wall-i.png" alt="left-wall-staker">
+                        </div>
                     <div class="bg-lt">
+                        <div class="left_image">
+                        <img class="png-img-i" src="assets/image/wall/wall-i.png" alt="left-wall-staker">
+                        </div>
+                        
                         <div class="bg-header">
                             <h1>A common representative of the <span class="highlight">Magar indigenous</span> people of
                                 Nepal.</h1>
@@ -22,12 +30,13 @@
                                 egestas nibh quam pretium nisl mauris. Scelerisque odio sagittis a dui porta tortor
                                 netus nibh.</p>
                         </div>
-                        <button class="bg-btn">
+                        <a class="primary-btn border-transparent">
                             <p>Explore Now</p>
-                            <i class="fa-solid fa-arrow-right"></i>
-                        </button>
+                            <div class="arrow-btn"></div>      
+                        </a>
                     </div>
                     <div class="bg-rt">
+                        
                         <div class="bg-main-img">
                             <img src="assets/image/wall/wall-person.png" alt="wall-person">
                         </div>
@@ -37,6 +46,8 @@
         </div>
     </div>
 </div>
+
+<!-- Register Post -->
 
 <div class="regis-wall-container">
     <div class="regis-wall-lt-rt">
@@ -54,10 +65,12 @@
                         tortor ultricies blandit cursus risus ipsum libero quis. Quam neque nulla mi integer.
                     </p>
                 </div>
-                <button class="regis-btn">
+                <div>
+                <a href="#" class="secondary-btn border-transparent">
                     <p>Register Now</p>
-                    <i class="fa-solid fa-arrow-right"></i>
-                </button>
+                    <div class="arrow-btn"></div>
+                </a>
+                 </div>
             </div>
         </div>
 
@@ -75,14 +88,18 @@
                         tortor ultricies blandit cursus risus ipsum libero quis. Quam neque nulla mi integer.
                     </p>
                 </div>
-                <button class="regis-btn">
+                <div>
+                <a class="secondary-btn border-transparent">
                     <p>Register Now</p>
-                    <i class="fa-solid fa-arrow-right"></i>
-                </button>
+                    <div class="arrow-btn"></div>
+                </a>
+                </div>
             </div>
         </div>
     </div>
 </div>
+
+<!-- About Program -->
 
 <div class="about-main">
     <div class="container">
@@ -98,20 +115,20 @@
                 </div>
             </div>
             <div class="about-main-rt">
-                <div class="about-main-header-steaker">
-                    <div class="about-main-steaker">
-                        <img src="assets/image/wall/wall-i.png" alt="steaker">
-                    </div>
-                    <div class="about-main-header">
-                        <h2>About Magar Association Belgium</h2>
-                    </div>
-                </div>
+            <div class="head_title">
+              <div class="head_image">
+              <img src="assets/image/wall/wall-i.png" alt="steaker">
+              </div>
+    <div class="title">
+        <h3>About Magar Association Belgium</h3>
+    </div>
+         </div>
 
                 <div class="about-main-title">
                     <h1>Preservation & promotion of <span class="highlight">Magar culture</span>.</h1>
                 </div>
                 <div class="about-main-txt">
-                    <p>
+                    <p class="paragraph-text">
                         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque officia deserunt placeat aliquid
                         facere doloribus odit delectus voluptate ipsa nihil iusto rem saepe praesentium ea velit
                         explicabo beatae sint ullam dolore, amet ut reiciendis eligendi blanditiis. Dolore, sunt. Rerum
@@ -119,33 +136,34 @@
                         sapiente, inventore quo! Neque, minus.
                     </p>
                 </div>
-                <button class="bg-btn">
+                <a class="primary-btn">
                     <p>Read More</p>
-                    <i class="fa-solid fa-arrow-right"></i>
-                </button>
+                    <div class="arrow-btn"></div>  
+                </a>
             </div>
         </div>
     </div>
 </div>
 
+<!--Chairperson -->
+
 <div class="chairperson-container">
     <div class="container">
         <div class="chairperson-lt-rt">
             <div class="chairperson-lt">
-                <div class="about-main-header-steaker">
-                    <div class="about-main-steaker">
-                        <img src="assets/image/wall/wall-i.png" alt="steaker">
-                    </div>
-                    <div class="about-main-header">
-                        <h2>Message From President</h2>
-                    </div>
-                </div>
-
+            <div class="head_title">
+              <div class="head_image">
+                 <img src="assets/image/wall/wall-i.png" alt="steaker">
+              </div>
+                 <div class="title">
+                     <h3>Message From President</h3>
+                 </div>
+             </div>
                 <div class="about-main-title">
                     <h1>Preservation & promotion of <span class="highlight">Magar culture</span>.</h1>
                 </div>
                 <div class="about-main-txt">
-                    <p>
+                    <p class="paragraph-text">
                         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque officia deserunt placeat aliquid
                         facere doloribus odit delectus voluptate ipsa nihil iusto rem saepe praesentium ea velit
                         explicabo beatae sint ullam dolore, amet ut reiciendis eligendi blanditiis. Dolore, sunt. Rerum
@@ -172,14 +190,14 @@
 <div class="main-program-container">
     <div class="container">
         <div class="program-content">
-            <div class="about-main-header-steaker">
-                <div class="about-main-steaker">
-                    <img src="assets/image/wall/wall-i.png" alt="steaker">
-                </div>
-                <div class="about-main-header">
-                    <h2>Our Programs & Initiatives</h2>
-                </div>
-            </div>
+        <div class="head_title justify_center">
+              <div class="head_image">
+                 <img src="assets/image/wall/wall-i.png" alt="steaker">
+              </div>
+                 <div class="title">
+                     <h3>Our Programs & Initiatives</h3>
+                 </div>
+             </div>
             <div class="about-main-title">
                 <h1>Our Updated <span class="highlight">Program & Initiative</span>.</h1>
             </div>
@@ -201,10 +219,10 @@
                     </div>
 
                     <div class="readmore-none-wrapper">
-                        <button class="readmore-none-hist">
-                            <p>Learn More</p>
-                            <i class="fa-solid fa-arrow-right"></i>
-                        </button>
+                        <a class="readmore-none-hist">
+                            <p>Read More</p>
+                            <img src="assets/icon/btn-arrow-blue.svg"/>
+                        </a>
                     </div>
                 </div>
                 <div class="program-r1-hist hist">
@@ -223,10 +241,10 @@
                     </div>
 
                     <div class="readmore-none-wrapper">
-                        <button class="readmore-none-hist">
-                            <p>Learn More</p>
-                            <i class="fa-solid fa-arrow-right"></i>
-                        </button>
+                        <a class="readmore-none-hist">
+                            <p>Read More</p>
+                            <img src="assets/icon/btn-arrow-blue.svg"/>
+                        </a>
                     </div>
                 </div>
                 <div class="program-r1-hist hist">
@@ -245,10 +263,10 @@
                     </div>
 
                     <div class="readmore-none-wrapper">
-                        <button class="readmore-none-hist">
-                            <p>Learn More</p>
-                            <i class="fa-solid fa-arrow-right"></i>
-                        </button>
+                        <a class="readmore-none-hist">
+                            <p>Read More</p>
+                            <img src="assets/icon/btn-arrow-blue.svg"/>
+                        </a>
                     </div>
                 </div>
                 <div class="program-r1-hist hist">
@@ -267,10 +285,10 @@
                     </div>
 
                     <div class="readmore-none-wrapper">
-                        <button class="readmore-none-hist">
-                            <p>Learn More</p>
-                            <i class="fa-solid fa-arrow-right"></i>
-                        </button>
+                        <a class="readmore-none-hist">
+                            <p>Read More</p>
+                            <img src="assets/icon/btn-arrow-blue.svg"/>
+                        </a>
                     </div>
                 </div>
                 <div class="program-r1-hist hist">
@@ -289,17 +307,17 @@
                     </div>
 
                     <div class="readmore-none-wrapper">
-                        <button class="readmore-none-hist">
-                            <p>Learn More</p>
-                            <i class="fa-solid fa-arrow-right"></i>
-                        </button>
+                        <a class="readmore-none-hist">
+                            <p>Read More</p>
+                            <img src="assets/icon/btn-arrow-blue.svg"/>
+                        </a>
                     </div>
                 </div>
             </div>
             <div class="bg-btn-centeralign">
-                <button class="bg-btn">
+                <button class="primary-btn">
                     <p>View All Program</p>
-                    <i class="fa-solid fa-arrow-right"></i>
+                    <div class="arrow-btn"></div>
                 </button>
             </div>
         </div>
@@ -310,20 +328,19 @@
     <div class="container">
         <div class="event-lt-rt">
             <div class="event-lt">
-                <div class="about-main-header-steaker">
-                    <div class="about-main-steaker">
-                        <img src="assets/image/wall/wall-i.png" alt="steaker">
-                    </div>
-                    <div class="about-main-header">
-                        <h2>Our Events</h2>
-                    </div>
-                </div>
-
+            <div class="head_title">
+              <div class="head_image">
+                 <img src="assets/image/wall/wall-i.png" alt="steaker">
+              </div>
+                 <div class="title">
+                     <h3>Our Events</h3>
+                 </div>
+             </div>
                 <div class="about-main-title">
                     <h1>Join Our Latest New Upcoming Events</h1>
                 </div>
                 <div class="about-main-txt">
-                    <p>
+                    <p class="paragraph-text">
                         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque officia deserunt placeat aliquid
                         facere doloribus odit delectus voluptate ipsa nihil iusto rem saepe praesentium ea velit
                         explicabo beatae sint ullam dolore, amet ut reiciendis eligendi blanditiis. Dolore, sunt. Rerum
@@ -331,10 +348,10 @@
                         sapiente, inventore quo! Neque, minus.
                     </p>
                 </div>
-                <button class="bg-btn">
+                <a class="primary-btn">
                     <p>View All Events</p>
-                    <i class="fa-solid fa-arrow-right"></i>
-                </button>
+                    <div class="arrow-btn"></div>   
+                </a>
             </div>
             <div class="event-rt">
                 <div class="event-rt-content">
@@ -345,21 +362,21 @@
                         <div class="time-locate">
                             <div class="time">
                                 <i class="fa-regular fa-clock"></i>
-                                <p>2:30 pm to 4:30 pm</p>
+                                <p class="paragraph-text">2:30 pm to 4:30 pm</p>
                             </div>
                             <div class="locate">
                                 <i class="fa-solid fa-location-dot"></i>
-                                <p>Buddhanagar, Ktm</p>
+                                <p class="paragraph-text">Buddhanagar, Ktm</p>
                             </div>
                         </div>
 
                         <div class="co-txt">
                             <h3>Learning Exactly how we Arrange a Event</h3>
                         </div>
-                        <button class="readmore-none-hist">
+                        <a class="readmore-none-hist">
                             <p>View Details</p>
-                            <i class="fa-solid fa-arrow-right"></i>
-                        </button>
+                            <img src="assets/icon/btn-arrow-blue.svg"/>
+                        </a>
                         <div class="event-rt-popup">
                             <div class="popup-txt">
                                 <p>25 Nov, 2025</p>
@@ -375,21 +392,21 @@
                         <div class="time-locate">
                             <div class="time">
                                 <i class="fa-regular fa-clock"></i>
-                                <p>2:30 pm to 4:30 pm</p>
+                                <p class="paragraph-text">2:30 pm to 4:30 pm</p>
                             </div>
                             <div class="locate">
                                 <i class="fa-solid fa-location-dot"></i>
-                                <p>Buddhanagar, Ktm</p>
+                                <p class="paragraph-text">Buddhanagar, Ktm</p>
                             </div>
                         </div>
 
                         <div class="co-txt">
                             <h3>Learning Exactly how we Arrange a Event</h3>
                         </div>
-                        <button class="readmore-none-hist">
+                        <a class="readmore-none-hist">
                             <p>View Details</p>
-                            <i class="fa-solid fa-arrow-right"></i>
-                        </button>
+                            <img src="assets/icon/btn-arrow-blue.svg"/>
+                        </a>
 
                     </div>
                     <div class="event-rt-popup">
@@ -406,20 +423,23 @@
 <div class="news-container">
     <div class="container">
         <div class="news-content">
-            <div class="about-main-header-steaker">
-                <div class="about-main-steaker">
-                    <img src="assets/image/wall/wall-i.png" alt="steaker">
-                </div>
-                <div class="about-main-header">
-                    <h2>News & Blogs</h2>
-                </div>
-            </div>
+        <div class="head_title justify_center">
+              <div class="head_image">
+                 <img src="assets/image/wall/wall-i.png" alt="steaker">
+              </div>
+                 <div class="title">
+                     <h3>News & Blogs</h3>
+                 </div>
+             </div>
             <div class="about-main-title">
                 <h1>Directly From The Latest <br><span class="highlight">News & Articles</span>.</h1>
             </div>
             <div class="program-content-hist">
                 <div class="program-r1-hist hist">
                     <div class="r1-img">
+                        <div class="news_date">
+                            <p>25 Nov, 2025</p>
+                        </div>
                         <img src="assets/image/program/program.png" alt="program3">
                     </div>
                     <div class="program-r1-txt-wrapper">
@@ -435,16 +455,22 @@
 
                     <div class="readmore-none-wrapper">
                         <div class="txt-icon">
-                            <button class="readmore-none-hist">
-                                <p>Learn More</p>
-                                <i class="fa-solid fa-arrow-right"></i>
-                            </button>
+                            <a class="readmore-none-hist">
+                            <p>Read More</p>
+                            <img src="assets/icon/btn-arrow-blue.svg"/>
+                        </a>
                         </div>
-                        <i class="fa-solid fa-share-nodes"></i>
+                        <div>
+                        <a href="">
+                        <div href="" class="sharebtn"></div>
+                        </a></div>
                     </div>
                 </div>
                 <div class="program-r1-hist hist">
                     <div class="r1-img">
+                    <div class="news_date">
+                            <p>25 Nov, 2025</p>
+                        </div>
                         <img src="assets/image/program/program.png" alt="program3">
                     </div>
                     <div class="program-r1-txt-wrapper">
@@ -460,16 +486,23 @@
 
                     <div class="readmore-none-wrapper">
                         <div class="txt-icon">
-                            <button class="readmore-none-hist">
-                                <p>Learn More</p>
-                                <i class="fa-solid fa-arrow-right"></i>
-                            </button>
+                            <a class="readmore-none-hist">
+                            <p>Read More</p>
+                            <img src="assets/icon/btn-arrow-blue.svg"/>
+                        </a>
                         </div>
-                        <i class="fa-solid fa-share-nodes"></i>
+                        <div>
+                            <a href="">
+                        <div href="" class="sharebtn"></div>
+                        </a>
+                            </div>
                     </div>
                 </div>
                 <div class="program-r1-hist hist">
                     <div class="r1-img">
+                    <div class="news_date">
+                            <p>25 Nov, 2025</p>
+                        </div>
                         <img src="assets/image/program/program.png" alt="program3">
                     </div>
                     <div class="program-r1-txt-wrapper">
@@ -485,20 +518,22 @@
 
                     <div class="readmore-none-wrapper">
                         <div class="txt-icon">
-                            <button class="readmore-none-hist">
-                                <p>Learn More</p>
-                                <i class="fa-solid fa-arrow-right"></i>
-                            </button>
+                            <a class="readmore-none-hist">
+                              <p>Read More</p>
+                              <img src="assets/icon/btn-arrow-blue.svg"/>
+                            </a>
                         </div>
-                        <i class="fa-solid fa-share-nodes"></i>
+                        <a>
+                        <div href="" class="sharebtn"></div>
+                            </a>
                     </div>
                 </div>
             </div>
             <div class="bg-btn-centeralign">
-                <button class="bg-btn">
+                <a class="primary-btn">
                     <p>View All Program</p>
-                    <i class="fa-solid fa-arrow-right"></i>
-                </button>
+                    <div class="arrow-btn"></div> 
+               </a>
             </div>
         </div>
     </div>
@@ -519,10 +554,10 @@
                                 please fill out the form.</h2>
                         </div>
                     </div>
-                    <button class="regis-btn">
+                    <a class="secondary-btn border-transparent">
                         <p>Register Now</p>
-                        <i class="fa-solid fa-arrow-right"></i>
-                    </button>
+                        <div class="arrow-btn"></div>               
+                        </a>
                 </div>
             </div>
         </div>

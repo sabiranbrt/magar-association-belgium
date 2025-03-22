@@ -1,0 +1,105 @@
+.primary-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  flex-direction: row;
+  background: var(--primary-color);
+  border: 1px solid var(--primary-color) !important;
+  border-radius: 45px;
+  padding: 15px 30px;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+  p {
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--white-color);
+  }
+  .arrow-btn {
+    background-image: url("../icon/btn-arrow-white.svg");
+    width: 20px;
+    height: 20px;
+  }
+  &:hover {
+    background: var(--white-color);
+    border: 1px solid var(--primary-color) !important;
+    p {
+      color: var(--primary-color);
+    }
+    .arrow-btn {
+      background-image: url("../icon/btn-arrow-blue.svg");
+    }
+  }
+}
+.secondary-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  flex-direction: row;
+  background: var(--white-color);
+  border: 1px solid var(--white-color) !important;
+  border-radius: 45px;
+  padding: 15px 30px;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+  p {
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--primary-color);
+  }
+  .arrow-btn {
+    background-image: url("../icon/btn-arrow-blue.svg");
+    width: 20px;
+    height: 20px;
+  }
+  &:hover {
+    background: var(--primary-color);
+    border: 1px solid var(--white-color);
+    p {
+      color: var(--white-color);
+    }
+    .arrow-btn {
+      background-image: url("../icon/btn-arrow-white.svg");
+    }
+  }
+}
+
+.border-transparent {
+  border: 1px solid transparent !important;
+
+  &:hover {
+    border: 1px solid transparent !important;
+  }
+}
+
+// head title
+.head_title {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+  .head_image {
+    height: 30px;
+  }
+  .title {
+    h3{
+        
+        font-size: 16px;
+        font-weight: 500;
+    }
+  }
+}
+
+.paragraph-text{
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--paragraph-color);
+}
+
+.highlight{
+color: var(--primary-color) !important;
+}
+
+.justify_center{
+    justify-content: center;
+}
