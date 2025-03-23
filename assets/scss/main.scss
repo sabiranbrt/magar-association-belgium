@@ -71,7 +71,7 @@
         }
       }
       .bg-lt-rt-main {
-        padding-block: 140px;
+        padding-block: 70px;
         display: flex;
         gap: 60px;
         align-items: center;
@@ -196,7 +196,7 @@
 
 // register section
 .regis-wall-container {
-  margin-block: 100px;
+  margin-block: 50px;
 
   @include max(992px) {
     margin-block: 80px;
@@ -279,7 +279,7 @@
 
 // About section
 .about-main {
-  margin-block: 100px;
+  margin-block: 50px;
   @include max(992px) {
     margin-block: 80px;
   }
@@ -394,7 +394,7 @@
 //  chairperson section
 .chairperson-container {
   background: var(--secondary-color);
-  margin-block: 100px;
+  margin-block: 50px;
 
   @include max(992px) {
     margin-block: 80px;
@@ -498,7 +498,7 @@
 
 // program section
 .main-program-container {
-  margin-block: 100px;
+  margin-block: 50px;
 
   @include max(992px) {
     margin-block: 80px;
@@ -556,7 +556,6 @@
 
         .program-r1-txt-wrapper {
           padding: 25px;
-          border-bottom: 0.5px solid var(--line-color);
 
           @include max(992px) {
             padding: 15px;
@@ -589,6 +588,7 @@
         .readmore-none-wrapper {
           position: relative;
           padding: 20px 25px;
+          border-top: 0.5px solid var(--line-color);
 
           @include max(992px) {
             padding: 10px 15px;
@@ -639,7 +639,7 @@
 
 // event section
 .event-container-main {
-  margin-block: 100px;
+  margin-block: 50px;
 
   @include max(992px) {
     margin-block: 80px;
@@ -825,7 +825,7 @@
 
 //  news section
 .news-container {
-  margin-block: 100px;
+  margin-block: 50px;
   @include max(992px) {
     margin-block: 80px;
   }

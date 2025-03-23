@@ -280,10 +280,15 @@ a {
 }
 
 .hamburger {
-  display: flex;
+  display: none;
   align-items: center;
   justify-content: space-between;
   padding: 10px 20px;
+}
+@media (max-width: 992px) {
+  .hamburger {
+    display: flex;
+  }
 }
 .hamburger .hamburger-menu {
   cursor: pointer;
@@ -840,7 +845,7 @@ a {
   }
 }
 .bg-container .bg-img .bg-lt-rt .bg-lt-rt-main {
-  padding-block: 140px;
+  padding-block: 70px;
   display: flex;
   gap: 60px;
   align-items: center;
@@ -976,7 +981,7 @@ a {
 }
 
 .regis-wall-container {
-  margin-block: 100px;
+  margin-block: 50px;
 }
 @media (max-width: 992px) {
   .regis-wall-container {
@@ -1062,7 +1067,7 @@ a {
 }
 
 .about-main {
-  margin-block: 100px;
+  margin-block: 50px;
 }
 @media (max-width: 992px) {
   .about-main {
@@ -1182,7 +1187,7 @@ a {
 
 .chairperson-container {
   background: var(--secondary-color);
-  margin-block: 100px;
+  margin-block: 50px;
 }
 @media (max-width: 992px) {
   .chairperson-container {
@@ -1293,7 +1298,7 @@ a {
 }
 
 .main-program-container {
-  margin-block: 100px;
+  margin-block: 50px;
 }
 @media (max-width: 992px) {
   .main-program-container {
@@ -1358,7 +1363,6 @@ a {
 }
 .main-program-container .program-content .program-content-hist .program-r1-hist .program-r1-txt-wrapper {
   padding: 25px;
-  border-bottom: 0.5px solid var(--line-color);
 }
 @media (max-width: 992px) {
   .main-program-container .program-content .program-content-hist .program-r1-hist .program-r1-txt-wrapper {
@@ -1397,6 +1401,7 @@ a {
 .main-program-container .program-content .program-content-hist .program-r1-hist .readmore-none-wrapper {
   position: relative;
   padding: 20px 25px;
+  border-top: 0.5px solid var(--line-color);
 }
 @media (max-width: 992px) {
   .main-program-container .program-content .program-content-hist .program-r1-hist .readmore-none-wrapper {
@@ -1437,7 +1442,7 @@ a {
 }
 
 .event-container-main {
-  margin-block: 100px;
+  margin-block: 50px;
 }
 @media (max-width: 992px) {
   .event-container-main {
@@ -1647,7 +1652,7 @@ a {
 }
 
 .news-container {
-  margin-block: 100px;
+  margin-block: 50px;
 }
 @media (max-width: 992px) {
   .news-container {

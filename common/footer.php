@@ -123,7 +123,7 @@
 <div class="footer-copyright">
     <div class="container">
         <div class="copyright-content">
-            <p><span class="c">&#169;</span> Copyright 2023. Magar Association Belgium. All rights Reserved.</p>
+            <p class="paragraph-text"><span class="c">&#169;</span> 2025 Magar Association Belgium. All rights Reserved.</p>
             <div class="company">
                 <p>Powered By <span class="hli-1">CL</span> <span class="hli-2">Tech</span></p>
             </div>
