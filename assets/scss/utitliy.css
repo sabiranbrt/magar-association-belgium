@@ -14,11 +14,13 @@
   font-size: 16px;
   font-weight: 600;
   color: var(--white-color);
+  transition: all 0.3s ease-in-out;
 }
 .primary-btn .arrow-btn {
   background-image: url("../icon/btn-arrow-white.svg");
   width: 20px;
   height: 20px;
+  transition: all 0.3s ease-in-out;
 }
 .primary-btn:hover {
   background: var(--white-color);
@@ -47,11 +49,13 @@
   font-size: 16px;
   font-weight: 600;
   color: var(--primary-color);
+  transition: all 0.3s ease-in-out;
 }
 .secondary-btn .arrow-btn {
   background-image: url("../icon/btn-arrow-blue.svg");
   width: 20px;
   height: 20px;
+  transition: all 0.3s ease-in-out;
 }
 .secondary-btn:hover {
   background: var(--primary-color);
@@ -62,6 +66,62 @@
 }
 .secondary-btn:hover .arrow-btn {
   background-image: url("../icon/btn-arrow-white.svg");
+}
+
+.primary-btn-text {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  flex-direction: row;
+  border-radius: 45px;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+.primary-btn-text p {
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--primary-color);
+  transition: all 0.3s ease-in-out;
+}
+.primary-btn-text .arrow-btn {
+  background-image: url("../icon/btn-arrow-blue.svg");
+  width: 20px;
+  height: 20px;
+  transition: all 0.3s ease-in-out;
+}
+.primary-btn-text:hover p {
+  color: var(--black-color);
+}
+.primary-btn-text:hover .arrow-btn {
+  background-image: url("../icon/btn-arrow-black.svg");
+}
+
+.secondary-btn-text {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  flex-direction: row;
+  border-radius: 45px;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+.secondary-btn-text p {
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--black-color);
+  transition: all 0.3s ease-in-out;
+}
+.secondary-btn-text .arrow-btn {
+  background-image: url("../icon/btn-arrow-black.svg");
+  width: 20px;
+  height: 20px;
+  transition: all 0.3s ease-in-out;
+}
+.secondary-btn-text:hover p {
+  color: var(--primary-color);
+}
+.secondary-btn-text:hover .arrow-btn {
+  background-image: url("../icon/btn-arrow-blue.svg");
 }
 
 .border-transparent {

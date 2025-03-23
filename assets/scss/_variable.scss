@@ -1,18 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap");
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 html,
 body {
-    margin: 0;
-    padding: 0;
-    font-family: "Lato", sans-serif;
-    scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+  font-family: "Lato", sans-serif;
+  scroll-behavior: smooth;
 }
-
 
 h1,
 h2,
@@ -20,44 +19,42 @@ h3,
 h4,
 h5,
 p {
-    padding: 0;
-    margin: 0;
+  padding: 0;
+  margin: 0;
 }
 
 img {
-    display: block;
-    object-fit: cover;
-    height: 100%;
+  display: block;
+  object-fit: cover;
+  height: 100%;
 }
-
 
 ul[role="list"],
 li[role="list"] {
-    list-style: none;
-    padding: 0;
-    margin: 0;
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 input:focus-visible {
-    outline: none !important;
+  outline: none !important;
 }
 
 textarea:focus-visible {
-    outline: none !important;
+  outline: none !important;
 }
 
 a {
-    text-decoration: none !important;
-    color: #fff;
+  text-decoration: none !important;
+  color: #fff;
 }
-
-
 
 // color variable
 :root {
-    --black-color: #000;
-    --white-color: #fff;
-    --primary-color: #185CAB;
-    --secondary-color:#E1EFFF;
-    --paragraph-color: #656565;
-  }
+  --black-color: #000;
+  --white-color: #fff;
+  --primary-color: #185cab;
+  --secondary-color: #e1efff;
+  --paragraph-color: #656565;
+  --line-color: #cccccc;
+}

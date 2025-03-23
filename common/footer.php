@@ -2,12 +2,12 @@
 
     <div class="footer-img-content">
         <div class="lt-rt-img-f">
-        <div class="lt-img-f">
-            <img src="assets/image/wall/wall-i.png" alt="steaker">
-        </div>
-        <div class="rt-img-f">
-            <img src="assets/image/wall/wall-i.png" alt="steaker">
-        </div>
+            <div class="lt-img-f">
+                <img src="assets/image/wall/wall-i.png" alt="steaker">
+            </div>
+             <div class="rt-img-f">
+                 <img src="assets/image/wall/wall-i.png" alt="steaker">
+             </div>
         </div>
         <div class="footer-content">
             <div class="container">
@@ -15,7 +15,11 @@
                     <div class="footer-c1">
                         <div class="footer-title">
                             <h3>Contact Us</h3>
-                            <div class="line-container"></div>
+                             <div class="line-container">
+                                <div class="line_one"></div>
+                                <div class="line_two"></div>
+                                <div class="line_three"></div>
+                            </div>
                         </div>
                         <div class="footer-data">
                             <div class="footer-logo">
@@ -24,51 +28,59 @@
                             <div class="intouch-txt">
                                 <h4>GET IN TOUCH WITH US:</h4>
                             </div>
-                            <div class="footer-icon-txt">
-                                <a class="fa-solid fa-phone"></a>
+                            <a href="" class="footer-icon-txt">
+                                <img src="assets/icon/phoneicon.svg"/>
                                 <p>+977-9867886300</p>
-                            </div>
-                            <div class="footer-icon-txt">
-                                <a class="fa-solid fa-envelope"></a>
+                            </a>
+                            <a href="" class="footer-icon-txt">
+                            <img src="assets/icon/emailicon.svg"/>
                                 <p>sijanpokhrel.py@gmail.com</p>
-                            </div>
-                            <div class="footer-icon-txt">
-                                <a class="fa-solid fa-location-dot"></a>
+                            </a>
+                            <a href="" class="footer-icon-txt">
+                            <img src="assets/icon/locationicon.svg"/>
                                 <p>Sankhamul, Kathmandu</p>
-                            </div>
+                            </a>
                         </div>
                     </div>
                     <div class="footer-c2">
                         <div class="footer-title">
                             <h3>Social Media</h3>
-                            <div class="line-container"></div>
+                            <div class="line-container">
+                                <div class="line_one"></div>
+                                <div class="line_two"></div>
+                                <div class="line_three"></div>
+                            </div>
                         </div>
                         <div class="footer-data">
-                            <div class="footer-icon-txt">
-                                <a class="fa-brands fa-facebook"></a>
+                            <a href="" class="footer-icon-txt">
+                            <img src="assets/icon/facebookicon.svg"/>
                                 <p>Follow Us On Facebook</p>
-                            </div>
-                            <div class="footer-icon-txt">
-                                <a class="fa-brands fa-instagram"></a>
+                            </a>
+                            <a href="" class="footer-icon-txt">
+                            <img src="assets/icon/instaicon.svg"/>
                                 <p>Follow Us On Instagram</p>
-                            </div>
-                            <div class="footer-icon-txt">
-                                <a class="fa-brands fa-linkedin"></a>
+                            </a>
+                            <a href="" class="footer-icon-txt">
+                            <img src="assets/icon/linkinicon.svg"/>
                                 <p>Follow Us On Linkedin</p>
-                            </div>
-                            <div class="footer-icon-txt">
-                                <a class="fa-brands fa-square-x-twitter"></a>
+                            </a>
+                            <a href="" class="footer-icon-txt">
+                            <img src="assets/icon/twitter.svg"/>
                                 <p>Follow Us On Twitter</p>
-                            </div>
+                            </a>
                         </div>
                     </div>
                     <div class="footer-c3">
                         <div class="footer-title">
                             <h3>Quick Links</h3>
-                            <div class="line-container"></div>
+                          <div class="line-container">
+                                <div class="line_one"></div>
+                                <div class="line_two"></div>
+                                <div class="line_three"></div>
+                            </div>
                         </div>
                         <div class="footer-data">
-                            <ul>
+                            <ul role="list">
                                 <li><a href="">About Us</a></li>
                                 <li><a href="">Programs & Initiatives</a></li>
                                 <li><a href="">Our Historical Place</a></li>

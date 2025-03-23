@@ -8,16 +8,22 @@
   border-radius: 45px;
   padding: 15px 30px;
   transition: all 0.3s ease-in-out;
+
+  @include max(992px) {
+    padding: 10px 20px;
+  }
   cursor: pointer;
   p {
     font-size: 16px;
     font-weight: 600;
     color: var(--white-color);
+    transition: all 0.3s ease-in-out;
   }
   .arrow-btn {
     background-image: url("../icon/btn-arrow-white.svg");
     width: 20px;
     height: 20px;
+    transition: all 0.3s ease-in-out;
   }
   &:hover {
     background: var(--white-color);
@@ -41,15 +47,20 @@
   padding: 15px 30px;
   transition: all 0.3s ease-in-out;
   cursor: pointer;
+  @include max(992px) {
+    padding: 10px 20px;
+  }
   p {
     font-size: 16px;
     font-weight: 600;
     color: var(--primary-color);
+    transition: all 0.3s ease-in-out;
   }
   .arrow-btn {
     background-image: url("../icon/btn-arrow-blue.svg");
     width: 20px;
     height: 20px;
+    transition: all 0.3s ease-in-out;
   }
   &:hover {
     background: var(--primary-color);
@@ -59,6 +70,66 @@
     }
     .arrow-btn {
       background-image: url("../icon/btn-arrow-white.svg");
+    }
+  }
+}
+
+.primary-btn-text {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  flex-direction: row;
+  border-radius: 45px;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+
+  p {
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--primary-color);
+    transition: all 0.3s ease-in-out;
+  }
+  .arrow-btn {
+    background-image: url("../icon/btn-arrow-blue.svg");
+    width: 20px;
+    height: 20px;
+    transition: all 0.3s ease-in-out;
+  }
+  &:hover {
+    p {
+      color: var(--black-color);
+    }
+    .arrow-btn {
+      background-image: url("../icon/btn-arrow-black.svg");
+    }
+  }
+}
+.secondary-btn-text {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  flex-direction: row;
+  border-radius: 45px;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+  p {
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--black-color);
+    transition: all 0.3s ease-in-out;
+  }
+  .arrow-btn {
+    background-image: url("../icon/btn-arrow-black.svg");
+    width: 20px;
+    height: 20px;
+    transition: all 0.3s ease-in-out;
+  }
+  &:hover {
+    p {
+      color: var(--primary-color);
+    }
+    .arrow-btn {
+      background-image: url("../icon/btn-arrow-blue.svg");
     }
   }
 }
@@ -82,24 +153,23 @@
     height: 30px;
   }
   .title {
-    h3{
-        
-        font-size: 16px;
-        font-weight: 500;
+    h3 {
+      font-size: 16px;
+      font-weight: 500;
     }
   }
 }
 
-.paragraph-text{
-    font-size: 16px;
-    font-weight: 400;
-    color: var(--paragraph-color);
+.paragraph-text {
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--paragraph-color);
 }
 
-.highlight{
-color: var(--primary-color) !important;
+.highlight {
+  color: var(--primary-color) !important;
 }
 
-.justify_center{
-    justify-content: center;
+.justify_center {
+  justify-content: center;
 }

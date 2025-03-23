@@ -1,94 +1,155 @@
-.main-nav-content{
-    .main-nav-container {
-        .main-nav {
-          display: flex;
-          align-items: center;
-          justify-content: space-between;
-          gap: 25px;
-          a {
-            .logo-container {
-              display: flex;
-              gap: 12px;
-              align-items: center;
-              cursor: pointer;
-              .logo {
-                width: 48px;
-                height: 47px;
-              }
-              .logo-txt {
-                p {
-                  color: #000000;
-                  font-size: 15px;
-                  font-weight: 500;
-      
-                }
-              }
-            }
-          }
+.hamburger-menu {
+  cursor: pointer;
+  padding: 10px;
+  display: none;
+  position: absolute;
+  top: 30px;
+  right: 35px;
 
-          .nav-items {
-            ul {
-              display: flex;
-              gap: 40px;
-              margin: 0;
-              cursor: pointer;
-              
-              li {
-                a {
-                  font-size: 16px;
-                  font-family: "Lato", sans-serif;
-                  font-weight: 600;
-                  color: #000000;
-                  position: relative;
-                }
-                a::after {
-                  display: block;
-                  content: "";
-                  position: absolute;
-                  bottom: -5px;
-                  left: 1px;
-                  width: 100%;
-                  height: 1.5px;
-                  border-radius: 5px;
-                  color: var(--primary-color);
-                  background: var(--primary-color);
-                  transform: scaleX(0);
-                  transform-origin: left;
-                  transition: transform 250ms ease-in-out;
-                }
-                a:hover {
-                  color: var(--primary-color);
-                }
-                a:hover:after {
-                  transform: scaleX(0.7);
-                }
-                a.active {
-                  color: var(--primary-color);
-                }
-                a.active::after {
-                  color: var(--primary-color);
-                  transform: scaleX(0.7);
-                }
-              }
-            }
+  @include max(992px) {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+  }
+  @include max(768px) {
+    top: 7px;
+    right: 15px;
+  }
+  .line {
+    width: 20px;
+    height: 2px;
+    background: var(--white-color);
+  }
+}
+
+.main-nav-content {
+  background: var(--white-color);
+  width: 100%;
+
+  @include max(992px) {
+    display: none;
+    justify-content: end;
+    position: fixed;
+
+    top: 134px;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 9999;
+    right: 0;
+    height: 100vh;
+  }
+
+  @include max(768px) {
+    top: 49px;
+  }
+  .main-nav-container {
+    @include max(992px) {
+      align-items: flex-start;
+      background: var(--white-color);
+      width: 300px;
+      padding-inline: 10px;
+    }
+    .main-nav {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 25px;
+
+      @include max(992px) {
+        flex-direction: column;
+        align-items: start;
+        padding-block: 20px;
+      }
+
+      a {
+        .logo-container {
+          display: flex;
+          gap: 12px;
+          align-items: center;
+          cursor: pointer;
+          .logo {
+            width: 48px;
+            height: 47px;
           }
-          .donar-btn {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            gap: 5px;
-            background: var(--primary-color);
-            padding: 15px 35px;
-           
-            .donar-text {
-              p {
-                color: var(--white-color);
-                font-weight: 700;
-                font-size: 18px;
-              }
+          .logo-txt {
+            p {
+              color: #000000;
+              font-size: 15px;
+              font-weight: 500;
             }
           }
         }
       }
-      
+
+      .nav-items {
+        ul {
+          display: flex;
+          gap: 40px;
+          margin: 0;
+          cursor: pointer;
+
+          @include max(992px) {
+            flex-direction: column;
+            gap: 20px;
+          }
+          li {
+            a {
+              font-size: 16px;
+              font-family: "Lato", sans-serif;
+              font-weight: 600;
+              color: #000000;
+              position: relative;
+            }
+            a::after {
+              display: block;
+              content: "";
+              position: absolute;
+              bottom: -5px;
+              left: 1px;
+              width: 100%;
+              height: 1.5px;
+              border-radius: 5px;
+              color: var(--primary-color);
+              background: var(--primary-color);
+              transform: scaleX(0);
+              transform-origin: left;
+              transition: transform 250ms ease-in-out;
+            }
+            a:hover {
+              color: var(--primary-color);
+            }
+            a:hover:after {
+              transform: scaleX(0.7);
+            }
+            a.active {
+              color: var(--primary-color);
+            }
+            a.active::after {
+              color: var(--primary-color);
+              transform: scaleX(0.7);
+            }
+          }
+        }
+      }
+      .donar-btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+        background: var(--primary-color);
+        padding: 15px 35px;
+
+        .donar-text {
+          p {
+            color: var(--white-color);
+            font-weight: 700;
+            font-size: 18px;
+          }
+        }
+      }
+    }
+  }
+}
+
+.open {
+  display: flex !important;
 }

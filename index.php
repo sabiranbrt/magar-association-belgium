@@ -2,7 +2,7 @@
 <?php include 'common/navigation.php'; ?>
 
 
-<!-- header banner -->
+<!-- hero section -->
 <div class="bg-container">
     <div class="bg-img">
         <div class="img-steaker">
@@ -25,7 +25,7 @@
                                 Nepal.</h1>
                         </div>
                         <div class="bg-txt">
-                            <p>Lorem ipsum dolor sit amet consectetur. A quam a nec gravida faucibus est. Feugiat at ac
+                            <p class="paragraph-text">Lorem ipsum dolor sit amet consectetur. A quam a nec gravida faucibus est. Feugiat at ac
                                 massa
                                 egestas nibh quam pretium nisl mauris. Scelerisque odio sagittis a dui porta tortor
                                 netus nibh.</p>
@@ -62,6 +62,7 @@
                 <div class="regis-txt">
                     <p>
                         Lorem ipsum dolor sit amet consectetur. Blandit fames sceler isq ue auctor vel diam quis. Sed
+                        tortor ultricies blandit cursus risus ipsum libero quis. Quam neque nulla mi integer.   Lorem ipsum dolor sit amet consectetur. Blandit fames sceler isq ue auctor vel diam quis. Sed
                         tortor ultricies blandit cursus risus ipsum libero quis. Quam neque nulla mi integer.
                     </p>
                 </div>
@@ -134,6 +135,9 @@
                         explicabo beatae sint ullam dolore, amet ut reiciendis eligendi blanditiis. Dolore, sunt. Rerum
                         sunt iure odio alias animi porro eligendi exercitationem architecto, esse ratione deserunt
                         sapiente, inventore quo! Neque, minus.
+                        Dolore, sunt. Rerum
+                        sunt iure odio alias animi porro eligendi exercitationem architecto, esse ratione deserunt
+                        sapiente, inventore quo! Neque, minus.
                     </p>
                 </div>
                 <a class="primary-btn">
@@ -168,6 +172,9 @@
                         facere doloribus odit delectus voluptate ipsa nihil iusto rem saepe praesentium ea velit
                         explicabo beatae sint ullam dolore, amet ut reiciendis eligendi blanditiis. Dolore, sunt. Rerum
                         sunt iure odio alias animi porro eligendi exercitationem architecto, esse ratione deserunt
+                        sapiente, inventore quo! Neque, minus.ea velit
+                        explicabo beatae sint ullam dolore, amet ut reiciendis eligendi blanditiis. Dolore, sunt. Rerum
+                        sunt iure odio alias animi porro eligendi exercitationem architecto, esse ratione deserunt
                         sapiente, inventore quo! Neque, minus.
                     </p>
                 </div>
@@ -187,6 +194,7 @@
     </div>
 </div>
 
+<!-- Program -->
 <div class="main-program-container">
     <div class="container">
         <div class="program-content">
@@ -209,19 +217,19 @@
                     </div>
                     <div class="program-r1-txt-wrapper">
                         <div class="program-r1-title-hist">
-                            <h2>Helping The Homeless During The Hopeless</h2>
+                            <h2>Helping The Homeless During The Hopeless Helping The Homeless During The Hopeless</h2>
                         </div>
                         <div class="program-r1-txt-hist">
-                            <p>Lorem ipsum dolor sit amet consectetur. Vitae amet ultricies in sed nibh ipsum vitae.
+                            <p>Lorem ipsum dolor sit amet consectetur. Vitae amet ultricies in sed nibh ipsum vitae.Lorem ipsum dolor sit amet consectetur. Vitae amet ultricies in sed nibh ipsum vitae.
                                 Egestas
                                 donec.</p>
                         </div>
                     </div>
 
                     <div class="readmore-none-wrapper">
-                        <a class="readmore-none-hist">
+                        <a class="secondary-btn-text">
                             <p>Read More</p>
-                            <img src="assets/icon/btn-arrow-blue.svg"/>
+                            <div class="arrow-btn"></div>
                         </a>
                     </div>
                 </div>
@@ -241,9 +249,9 @@
                     </div>
 
                     <div class="readmore-none-wrapper">
-                        <a class="readmore-none-hist">
+                        <a class="secondary-btn-text">
                             <p>Read More</p>
-                            <img src="assets/icon/btn-arrow-blue.svg"/>
+                            <div class="arrow-btn"></div>
                         </a>
                     </div>
                 </div>
@@ -263,9 +271,9 @@
                     </div>
 
                     <div class="readmore-none-wrapper">
-                        <a class="readmore-none-hist">
+                        <a class="secondary-btn-text">
                             <p>Read More</p>
-                            <img src="assets/icon/btn-arrow-blue.svg"/>
+                            <div class="arrow-btn"></div>
                         </a>
                     </div>
                 </div>
@@ -285,9 +293,9 @@
                     </div>
 
                     <div class="readmore-none-wrapper">
-                        <a class="readmore-none-hist">
+                        <a class="secondary-btn-text">
                             <p>Read More</p>
-                            <img src="assets/icon/btn-arrow-blue.svg"/>
+                            <div class="arrow-btn"></div>
                         </a>
                     </div>
                 </div>
@@ -307,9 +315,9 @@
                     </div>
 
                     <div class="readmore-none-wrapper">
-                        <a class="readmore-none-hist">
+                        <a class="secondary-btn-text">
                             <p>Read More</p>
-                            <img src="assets/icon/btn-arrow-blue.svg"/>
+                            <div class="arrow-btn"></div>
                         </a>
                     </div>
                 </div>
@@ -324,6 +332,7 @@
     </div>
 </div>
 
+<!-- Event -->
 <div class="event-container-main">
     <div class="container">
         <div class="event-lt-rt">
@@ -344,6 +353,9 @@
                         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque officia deserunt placeat aliquid
                         facere doloribus odit delectus voluptate ipsa nihil iusto rem saepe praesentium ea velit
                         explicabo beatae sint ullam dolore, amet ut reiciendis eligendi blanditiis. Dolore, sunt. Rerum
+                        sunt iure odio alias animi porro eligendi exercitationem architecto, esse ratione deserunt
+                        sapiente, inventore quo! Neque, minus.
+                        Dolore, sunt. Rerum
                         sunt iure odio alias animi porro eligendi exercitationem architecto, esse ratione deserunt
                         sapiente, inventore quo! Neque, minus.
                     </p>
@@ -373,9 +385,9 @@
                         <div class="co-txt">
                             <h3>Learning Exactly how we Arrange a Event</h3>
                         </div>
-                        <a class="readmore-none-hist">
+                        <a class="primary-btn-text">
                             <p>View Details</p>
-                            <img src="assets/icon/btn-arrow-blue.svg"/>
+                            <div class="arrow-btn"></div>
                         </a>
                         <div class="event-rt-popup">
                             <div class="popup-txt">
@@ -401,13 +413,12 @@
                         </div>
 
                         <div class="co-txt">
-                            <h3>Learning Exactly how we Arrange a Event</h3>
+                            <h3>Learning Exactly how we Arrange a Event Learning Exactly how we Arrange a Event</h3>
                         </div>
-                        <a class="readmore-none-hist">
+                        <a class="primary-btn-text">
                             <p>View Details</p>
-                            <img src="assets/icon/btn-arrow-blue.svg"/>
+                      <div class="arrow-btn"></div>
                         </a>
-
                     </div>
                     <div class="event-rt-popup">
                         <div class="popup-txt">
@@ -420,6 +431,7 @@
     </div>
 </div>
 
+<!-- News -->
 <div class="news-container">
     <div class="container">
         <div class="news-content">
@@ -539,6 +551,7 @@
     </div>
 </div>
 
+<!-- Election -->
 <div class="election-form-container">
     <div class="container">
         <div class="form-container">
