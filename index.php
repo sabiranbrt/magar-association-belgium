@@ -551,30 +551,5 @@
     </div>
 </div>
 
-<!-- Election -->
-<div class="election-form-container">
-    <div class="container">
-        <div class="form-container">
-            <div class="form-bg-img-content">
-                <img src="assets/image/background/election.png" alt="election-main-bg">
-                <div class="form-bg-content">
-                    <div class="voting-svg-header">
-                        <div class="voting-svg">
-                            <img src="assets/image/svg/voting.svg" alt="voting svg">
-                        </div>
-                        <div class="voting-header">
-                            <h2>To participate in the election,
-                                please fill out the form.</h2>
-                        </div>
-                    </div>
-                    <a class="secondary-btn border-transparent">
-                        <p>Register Now</p>
-                        <div class="arrow-btn"></div>               
-                        </a>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
 
 <?php include 'common/footer.php'; ?>

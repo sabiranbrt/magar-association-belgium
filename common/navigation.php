@@ -8,7 +8,7 @@
         </div>
     </div>
     <div class="mobile_logo">
-        <img src="assets/image/wall/wall-i.png"/>
+    <img src="assets/image/logo/logo.png" alt="">
     </div>
     <div class="hamburger-menu">
                     <div class="line"></div>
@@ -20,9 +20,16 @@
             <div class="container">
                 <div class="main-nav nav-fix">
                     <div class="nav-items">
-                        <ul role="list">
+                        <ul role="list" class="menu">
                             <li><a href="index.php"><img src="assets/icon/homeicon.svg" /></a></li>
-                            <li><a href="about.php">About Us</a></li>
+                            <li><a href="about.php">About Us</a>
+                            <ul role="list" class="sub-menu">
+                                <li><a href="">Introduction</a></li>
+                                <li><a href="">Our Team</a></li>
+                                <li><a href="">Message From Director</a></li>
+                                <li><a href="">Our Historical Place</a></li>
+                            </ul>
+                        </li>
                             <li><a href="program.php">Program</a></li>
                             <li><a href="gallery.php">Gallery</a></li>
                             <li><a href="blogs.php">News & Blogs</a></li>
