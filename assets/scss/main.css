@@ -236,11 +236,6 @@ a {
 }
 @media (max-width: 992px) {
   .topnav {
-    padding-block: 10px;
-  }
-}
-@media (max-width: 768px) {
-  .topnav {
     display: none;
   }
 }
@@ -271,36 +266,38 @@ a {
 .mobile_logo {
   display: none;
 }
-@media (max-width: 768px) {
+@media (max-width: 992px) {
   .mobile_logo {
     display: block;
-    height: 60px;
-    padding: 10px 0;
+    height: 70px;
+  }
+}
+@media (max-width: 992px) {
+  .mobile_logo {
+    display: block;
+    height: 50px;
   }
 }
 
-.hamburger-menu {
+.hamburger {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+}
+.hamburger .hamburger-menu {
   cursor: pointer;
   padding: 10px;
   display: none;
-  position: absolute;
-  top: 30px;
-  right: 35px;
 }
 @media (max-width: 992px) {
-  .hamburger-menu {
+  .hamburger .hamburger-menu {
     display: flex;
     flex-direction: column;
     gap: 3px;
   }
 }
-@media (max-width: 768px) {
-  .hamburger-menu {
-    top: 15px;
-    right: 15px;
-  }
-}
-.hamburger-menu .line {
+.hamburger .hamburger-menu .line {
   width: 20px;
   height: 2px;
   background: var(--white-color);
@@ -466,6 +463,23 @@ a {
 
 .open {
   display: flex !important;
+}
+
+.fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 99999999;
+}
+
+.fixed-mobile {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 99999999;
+  background: var(--primary-color);
 }
 
 .footer-container {
@@ -765,11 +779,6 @@ a {
 .topbar_navbar {
   position: relative;
   background: var(--primary-color);
-}
-@media (max-width: 768px) {
-  .topbar_navbar {
-    padding-inline: 20px;
-  }
 }
 
 .bg-container .bg-img {

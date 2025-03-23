@@ -10,10 +10,6 @@
 .topbar_navbar {
   position: relative;
   background: var(--primary-color);
-
-  @include max(768px) {
-    padding-inline: 20px;
-  }
 }
 
 // hero section

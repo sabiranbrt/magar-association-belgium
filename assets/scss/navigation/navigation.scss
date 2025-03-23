@@ -2,10 +2,6 @@
   padding-block: 20px;
 
   @include max(992px) {
-    padding-block: 10px;
-  }
-
-  @include max(768px) {
     display: none;
   }
   .topnav-header {
@@ -34,9 +30,12 @@
 .mobile_logo {
   display: none;
 
-  @include max(768px) {
+  @include max(992px) {
     display: block;
-    height: 60px;
-    padding: 10px 0;
+    height: 70px;
+  }
+  @include max(992px) {
+    display: block;
+    height: 50px;
   }
 }

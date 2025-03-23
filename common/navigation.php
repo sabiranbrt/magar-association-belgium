@@ -1,4 +1,4 @@
-<div class="topbar_navbar">
+<div class="topbar_navbar" >
     <div class="topnav">
         <div class="topnav-header">
             <h1>"हाम्रो मगरात सभ्यता, मगरहरूको एकता आजको आवश्यकता"</h1>
@@ -7,15 +7,18 @@
             <img src="assets/image/logo/logo.png" alt="">
         </div>
     </div>
-    <div class="mobile_logo">
-    <img src="assets/image/logo/logo.png" alt="">
-    </div>
-    <div class="hamburger-menu">
+    <div class="hamburger" id="mobile_sticky">
+        <div class="mobile_logo">
+        <img src="assets/image/logo/logo.png" alt="">
+        </div>
+        <div class="hamburger-menu">
                     <div class="line"></div>
                     <div class="line"></div>
                     <div class="line"></div>
                 </div>
-    <div class="main-nav-content">
+    </div>
+    
+    <div class="main-nav-content" id="sticky_navbar">
         <div class="main-nav-container" id="navBar">
             <div class="container">
                 <div class="main-nav nav-fix">
