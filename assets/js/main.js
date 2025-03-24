@@ -85,3 +85,17 @@ function updateProgressbar() {
     
 }
 });
+
+document.addEventListener("DOMContentLoaded", () => {
+const faqs = document.querySelectorAll('.text-content');
+faqs.forEach((faq) =>{
+    faq.addEventListener("click",()=>{
+      faqs.forEach((item)=>{
+       if(item !== faqs){
+        item.classList.remove("active");
+       }
+      });
+      faq.classList.toggle("active");
+    });
+});
+})
