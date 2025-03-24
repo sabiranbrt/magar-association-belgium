@@ -1,0 +1,75 @@
+.event_inner_page {
+  margin-block: 50px;
+  .wrapper {
+    .title {
+      h2 {
+        font-size: 48px;
+        font-size: 700;
+      }
+    }
+    .detail_wrapper {
+      margin: 40px 0 30px 0;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      .venue {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        row-gap: 50px;
+        column-gap: 10px;
+        width: 50%;
+
+        .venue_detail {
+          display: flex;
+          align-items: center;
+          gap: 10px;
+        }
+      }
+      .share {
+        padding: 15px;
+        border-radius: 5px;
+        background: var(--secondary-color);
+        display: flex;
+        align-items: center;
+        gap: 25px;
+        p {
+          font-size: 16px;
+          font-weight: 500;
+        }
+        .social {
+          display: flex;
+          align-items: center;
+          gap: 15px;
+
+          .social_sites {
+            padding: 8px;
+            background: var(--white-color);
+            border-radius: 4px;
+            transition: all 0.3s ease-in-out;
+
+            .icons {
+              width: 15px;
+              height: 15px;
+
+              &:nth-child(1) {
+                color: black;
+                background: url("assets/icon/facebookicon.svg");
+              }
+              &:nth-child(2) {
+                background: url("assets/icon/instaicon.svg");
+              }
+              &:nth-child(3) {
+                background: url("assets/icon/twitter.svg");
+              }
+            }
+
+            &:hover {
+              background: var(--primary-color);
+            }
+          }
+        }
+      }
+    }
+  }
+}
