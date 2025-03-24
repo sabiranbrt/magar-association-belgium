@@ -12,7 +12,8 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
-
+<!-- dropzone -->
+<link rel="stylesheet" href="https://unpkg.com/dropzone@5/dist/min/dropzone.min.css" type="text/css" />
     <!-- Fontawesome 6.5.2 Css  -->
     <script src="https://kit.fontawesome.com/b16efad98d.js" crossorigin="anonymous"></script>
     

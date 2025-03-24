@@ -1,0 +1,13 @@
+.historical_places {
+  margin-block: 50px;
+}
+.historical_places .wrapper h1 {
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.historical_places .wrapper img {
+  height: 450px;
+  width: 100%;
+  margin-block: 30px;
+}/*# sourceMappingURL=historical-places.css.map */

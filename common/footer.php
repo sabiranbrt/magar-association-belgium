@@ -14,10 +14,10 @@
                                 please fill out the form.</h2>
                         </div>
                     </div>
-                    <a class="secondary-btn border-transparent">
+                    <a href="registration.php" class="secondary-btn border-transparent">
                         <p>Register Now</p>
-                        <div class="arrow-btn"></div>               
-                        </a>
+                        <div class="arrow-btn"></div>
+                    </a>
                 </div>
             </div>
         </div>
@@ -31,9 +31,9 @@
             <div class="lt-img-f">
                 <img src="assets/image/wall/wall-i.png" alt="steaker">
             </div>
-             <div class="rt-img-f">
-                 <img src="assets/image/wall/wall-i.png" alt="steaker">
-             </div>
+            <div class="rt-img-f">
+                <img src="assets/image/wall/wall-i.png" alt="steaker">
+            </div>
         </div>
         <div class="footer-content">
             <div class="container">
@@ -41,7 +41,7 @@
                     <div class="footer-c1">
                         <div class="footer-title">
                             <h3>Contact Us</h3>
-                             <div class="line-container">
+                            <div class="line-container">
                                 <div class="line_one"></div>
                                 <div class="line_two"></div>
                                 <div class="line_three"></div>
@@ -55,15 +55,15 @@
                                 <h4>GET IN TOUCH WITH US:</h4>
                             </div>
                             <a href="" class="footer-icon-txt">
-                                <img src="assets/icon/phoneicon.svg"/>
+                                <img src="assets/icon/phoneicon.svg" />
                                 <p>+977-9867886300</p>
                             </a>
                             <a href="" class="footer-icon-txt">
-                            <img src="assets/icon/emailicon.svg"/>
+                                <img src="assets/icon/emailicon.svg" />
                                 <p>sijanpokhrel.py@gmail.com</p>
                             </a>
                             <a href="" class="footer-icon-txt">
-                            <img src="assets/icon/locationicon.svg"/>
+                                <img src="assets/icon/locationicon.svg" />
                                 <p>Sankhamul, Kathmandu</p>
                             </a>
                         </div>
@@ -79,19 +79,19 @@
                         </div>
                         <div class="footer-data">
                             <a href="" class="footer-icon-txt">
-                            <img src="assets/icon/facebookicon.svg"/>
+                                <img src="assets/icon/facebookicon.svg" />
                                 <p>Follow Us On Facebook</p>
                             </a>
                             <a href="" class="footer-icon-txt">
-                            <img src="assets/icon/instaicon.svg"/>
+                                <img src="assets/icon/instaicon.svg" />
                                 <p>Follow Us On Instagram</p>
                             </a>
                             <a href="" class="footer-icon-txt">
-                            <img src="assets/icon/linkinicon.svg"/>
+                                <img src="assets/icon/linkinicon.svg" />
                                 <p>Follow Us On Linkedin</p>
                             </a>
                             <a href="" class="footer-icon-txt">
-                            <img src="assets/icon/twitter.svg"/>
+                                <img src="assets/icon/twitter.svg" />
                                 <p>Follow Us On Twitter</p>
                             </a>
                         </div>
@@ -99,7 +99,7 @@
                     <div class="footer-c3">
                         <div class="footer-title">
                             <h3>Quick Links</h3>
-                          <div class="line-container">
+                            <div class="line-container">
                                 <div class="line_one"></div>
                                 <div class="line_two"></div>
                                 <div class="line_three"></div>
@@ -136,6 +136,8 @@
 
 <!-- Jquery 3.7.1 -->
 <script src="assets/js/jquery.js"></script>
+<!-- DropZone Js -->
+<script src="https://unpkg.com/dropzone@5/dist/min/dropzone.min.js"></script>
 
 <!-- Bootstrap 5.3.3  -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>

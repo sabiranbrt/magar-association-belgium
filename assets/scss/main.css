@@ -217,6 +217,55 @@ a {
   font-weight: 500;
 }
 
+.banner {
+  position: relative;
+  height: 220px;
+}
+.banner .image {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+.banner .image .banner-wrapper {
+  height: 100%;
+  position: relative;
+}
+.banner .image .banner-wrapper::after {
+  content: "";
+  position: absolute;
+  background: #e1efff;
+  width: 100%;
+  opacity: 30%;
+  height: 100%;
+  top: 0;
+  z-index: 99;
+}
+.banner .image .banner-wrapper img {
+  width: 100%;
+}
+.banner .image .banner-wrapper .image_logo {
+  height: 100px;
+  position: absolute;
+  top: 18px;
+  left: 90px;
+  opacity: 10%;
+}
+.banner .image .banner-wrapper .image_logo:nth-child(2) {
+  top: 50px;
+  right: 90px;
+  left: unset;
+}
+.banner .title {
+  padding-block: 90px;
+}
+.banner .title p {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+}
+
 .paragraph-text {
   font-size: 16px;
   font-weight: 400;
@@ -229,6 +278,12 @@ a {
 
 .justify_center {
   justify-content: center;
+}
+
+.grid_two {
+  width: 100% !important;
+  display: grid !important;
+  grid-template-columns: repeat(2, 1fr);
 }
 
 .topnav {
@@ -779,6 +834,234 @@ a {
 }
 .footer-copyright .copyright-content .company p .hli-2 {
   color: rgb(169, 2, 98) !important;
+}
+
+.registration_section {
+  padding-block: 50px;
+  /* Styles for Progress Bar */
+  /* Styles for input group. */
+  /* Styles for Next and Back Button. */
+}
+.registration_section .progressbar {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  counter-reset: step;
+  width: 500px;
+  margin: 50px auto;
+}
+.registration_section .progressbar::before,
+.registration_section .progress {
+  content: "";
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 4px;
+  width: 100%;
+  background-color: #dcdcdc;
+  z-index: -1;
+}
+.registration_section .progress {
+  background-color: var(--primary-color);
+  width: 0%;
+  transition: 0.3s;
+  z-index: -1;
+}
+.registration_section .progress-step {
+  width: 18px;
+  height: 18px;
+  background-color: #dcdcdc;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.registration_section .progress-step::after {
+  content: attr(data-title);
+  position: absolute;
+  top: calc(100% - 4rem);
+  font-size: 0.85rem;
+  color: #666;
+}
+.registration_section .progress-step-active {
+  background-color: var(--primary-color);
+  color: #f3f3f3;
+}
+.registration_section .form {
+  margin-inline: 90px;
+}
+.registration_section .input-group {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.registration_section .form-step {
+  display: none;
+  transform-origin: top;
+  animation: animate 0.5s;
+}
+.registration_section .form-step .title {
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.registration_section .form-step .title h1 {
+  font-size: 24px;
+  font-weight: 700;
+}
+@keyframes animate {
+  from {
+    transform: scale(1, 0);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1, 1);
+    opacity: 1;
+  }
+}
+.registration_section .form-step-active {
+  display: block;
+}
+.registration_section .form-step-active .box_shadow {
+  padding: 30px;
+  box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgb(204, 204, 204);
+  border-radius: 8px;
+}
+.registration_section .btns-group {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+}
+.registration_section .btn {
+  padding: 0.75rem;
+  display: block;
+  text-decoration: none;
+  background-color: var(--primary-color);
+  color: white;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 0.25rem;
+  transition: 0.3s;
+}
+.registration_section .btn:hover {
+  box-shadow: 0 0 0 2px #fff, 0 0 0 3px var(--primary-color);
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input[type=text],
+input[type=date],
+select {
+  border: 1px solid rgb(204, 204, 204);
+  padding: 5px 10px;
+  font-size: 14px;
+  width: 100%;
+}
+
+.date {
+  margin-top: 90px;
+}
+
+label {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.dropzone {
+  border: none !important;
+}
+
+.team {
+  margin-block: 50px;
+}
+.team .team_wrapper {
+  float: clear-both;
+}
+.team .team_wrapper .image {
+  padding-right: 20px;
+  height: 530px;
+  width: 450px;
+  float: left;
+  box-shadow: -10px 10px 5px 0px rgb(24, 92, 171);
+}
+.team .team_wrapper .image img {
+  border-radius: 5px;
+  width: 100%;
+}
+.team .team_wrapper .team_detail h2 {
+  font-size: 36px;
+  font-weight: 500;
+  color: var(--primary-color);
+}
+.team .team_wrapper .team_detail h4 {
+  margin: 15px 0 20px 0;
+  font-size: 20px;
+  font-weight: 500;
+  color: var(--parragraph-color);
+}
+.team .team_wrapper .team_detail p {
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--parragraph-color);
+}
+
+.historical_places {
+  margin-block: 50px;
+}
+.historical_places .wrapper h1 {
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.historical_places .wrapper img {
+  height: 450px;
+  width: 100%;
+  margin-block: 30px;
+}
+
+.mission_vission {
+  margin-top: 35px;
+  margin-bottom: 50px;
+}
+.mission_vission .title {
+  margin-bottom: 40px;
+}
+.mission_vission .title h2 {
+  font-size: 36px;
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.mission_vission .box_wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+.mission_vission .box_wrapper .box_card {
+  background: var(--secondary-color);
+  border: 1px dotted var(--primary-color);
+  padding: 20px 25px;
+}
+.mission_vission .box_wrapper .box_card .title {
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.mission_vission .box_wrapper .box_card .title p {
+  font-size: 24px;
+  font-weight: 500;
+}
+.mission_vission .box_wrapper .box_card .title .icon {
+  background: var(--white-color);
+  border-radius: 50%;
+  padding: 10px;
 }
 
 .topbar_navbar {

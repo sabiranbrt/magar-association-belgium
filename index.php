@@ -1,7 +1,6 @@
 <?php include 'common/header.php'; ?>
 <?php include 'common/navigation.php'; ?>
 
-
 <!-- hero section -->
 <div class="bg-container">
     <div class="bg-img">

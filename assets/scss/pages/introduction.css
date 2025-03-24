@@ -1,0 +1,38 @@
+.mission_vission {
+  margin-top: 35px;
+  margin-bottom: 50px;
+}
+.mission_vission .title {
+  margin-bottom: 40px;
+}
+.mission_vission .title h2 {
+  font-size: 36px;
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.mission_vission .box_wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+.mission_vission .box_wrapper .box_card {
+  background: var(--secondary-color);
+  border: 1px dotted var(--primary-color);
+  padding: 20px 25px;
+}
+.mission_vission .box_wrapper .box_card .title {
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.mission_vission .box_wrapper .box_card .title p {
+  font-size: 24px;
+  font-weight: 500;
+}
+.mission_vission .box_wrapper .box_card .title .icon {
+  background: var(--white-color);
+  border-radius: 50%;
+  padding: 10px;
+}/*# sourceMappingURL=introduction.css.map */

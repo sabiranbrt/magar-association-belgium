@@ -1,0 +1,36 @@
+.team {
+  margin-block: 50px;
+  .team_wrapper {
+    float: clear-both;
+    .image {
+      padding-right: 20px;
+      height: 530px;
+      width: 450px;
+      float: left;
+      box-shadow: -10px 10px 5px 0px rgba(24, 92, 171, 1);
+
+      img {
+        border-radius: 5px;
+        width: 100%;
+      }
+    }
+    .team_detail {
+      h2 {
+        font-size: 36px;
+        font-weight: 500;
+        color: var(--primary-color);
+      }
+      h4 {
+        margin: 15px 0 20px 0;
+        font-size: 20px;
+        font-weight: 500;
+        color: var(--parragraph-color);
+      }
+      p {
+        font-size: 16px;
+        font-weight: 400;
+        color: var(--parragraph-color);
+      }
+    }
+  }
+}
