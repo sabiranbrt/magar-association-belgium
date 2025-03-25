@@ -1,0 +1,142 @@
+.event_inner_page {
+  margin-block: 50px;
+}
+.event_inner_page .news_innerpage_wrapper .wrapper .title h2 {
+  font-size: 48px;
+  font-size: 700;
+}
+.event_inner_page .news_innerpage_wrapper .wrapper .detail_wrapper {
+  margin: 40px 0 30px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.event_inner_page .news_innerpage_wrapper .wrapper .detail_wrapper .venue {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  row-gap: 50px;
+  -moz-column-gap: 10px;
+       column-gap: 10px;
+  width: 50%;
+}
+.event_inner_page .news_innerpage_wrapper .wrapper .detail_wrapper .venue .news_date {
+  background: var(--secondary-color);
+  padding: 10px;
+}
+.event_inner_page .news_innerpage_wrapper .wrapper .detail_wrapper .venue .venue_detail {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.event_inner_page .news_innerpage_wrapper .wrapper .detail_wrapper .share {
+  padding: 15px;
+  border-radius: 5px;
+  background: var(--secondary-color);
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+.event_inner_page .news_innerpage_wrapper .wrapper .detail_wrapper .share p {
+  font-size: 16px;
+  font-weight: 500;
+}
+.event_inner_page .news_innerpage_wrapper .wrapper .detail_wrapper .share .social {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.event_inner_page .news_innerpage_wrapper .wrapper .detail_wrapper .share .social .social_sites {
+  background: white;
+  padding: 8px;
+  border-radius: 8px;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+.event_inner_page .news_innerpage_wrapper .wrapper .detail_wrapper .share .social .social_sites:nth-child(1) .icons {
+  width: 20px;
+  height: 20px;
+  -webkit-mask-size: contain;
+          mask-size: contain;
+  -webkit-mask-image: url("../icon/facebookicon.svg");
+          mask-image: url("../icon/facebookicon.svg");
+  background: var(--primary-color);
+  transition: all 0.3s ease-in-out;
+}
+.event_inner_page .news_innerpage_wrapper .wrapper .detail_wrapper .share .social .social_sites:nth-child(2) .icons {
+  width: 20px;
+  height: 20px;
+  -webkit-mask-size: contain;
+          mask-size: contain;
+  -webkit-mask-image: url("../icon/instaicon.svg");
+          mask-image: url("../icon/instaicon.svg");
+  background: var(--primary-color);
+  transition: all 0.3s ease-in-out;
+}
+.event_inner_page .news_innerpage_wrapper .wrapper .detail_wrapper .share .social .social_sites:nth-child(3) .icons {
+  width: 20px;
+  height: 20px;
+  -webkit-mask-size: contain;
+          mask-size: contain;
+  -webkit-mask-image: url("../icon/twitter.svg");
+          mask-image: url("../icon/twitter.svg");
+  background: var(--primary-color);
+  transition: all 0.3s ease-in-out;
+}
+.event_inner_page .news_innerpage_wrapper .wrapper .detail_wrapper .share .social .social_sites:hover {
+  background: var(--primary-color);
+}
+.event_inner_page .news_innerpage_wrapper .wrapper .detail_wrapper .share .social .social_sites:hover .icons {
+  background: var(--white-color);
+}
+.event_inner_page .news_innerpage_wrapper .wrapper .img {
+  height: 450px;
+  margin-bottom: 30px;
+}
+.event_inner_page .news_innerpage_wrapper .wrapper .img img {
+  width: 100%;
+}
+.event_inner_page .news_innerpage_wrapper .latest_post {
+  padding: 30px 20px;
+  box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.1);
+}
+.event_inner_page .news_innerpage_wrapper .latest_post .title h3 {
+  font-size: 20px;
+  font-weight: 500;
+  margin: 15px 0 25px 0;
+}
+.event_inner_page .news_innerpage_wrapper .latest_post .title::after {
+  content: "";
+  width: 80px;
+  height: 1px;
+  background: var(--primary-color);
+  display: block;
+}
+.event_inner_page .news_innerpage_wrapper .latest_post .post {
+  display: flex;
+  gap: 20px;
+}
+.event_inner_page .news_innerpage_wrapper .latest_post .post .post_wrapper {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  height: 70px;
+}
+.event_inner_page .news_innerpage_wrapper .latest_post .post .post_wrapper .image {
+  width: 30%;
+}
+.event_inner_page .news_innerpage_wrapper .latest_post .post .post_wrapper .image img {
+  width: 100%;
+}
+.event_inner_page .news_innerpage_wrapper .latest_post .post .post_wrapper .discription {
+  width: 70%;
+}
+.event_inner_page .news_innerpage_wrapper .latest_post .post .post_wrapper .discription p {
+  font-size: 14px;
+  font-size: 700;
+  margin-bottom: 5px;
+}
+.event_inner_page .news_innerpage_wrapper .latest_post .post .post_wrapper .discription .date {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}/*# sourceMappingURL=event_innerpage.css.map */

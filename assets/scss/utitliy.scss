@@ -164,13 +164,14 @@
 
 .banner {
   position: relative;
-  height: 220px;
+
   .image {
     position: absolute;
     top: 0;
     width: 100%;
     height: 100%;
     z-index: -1;
+
     .banner-wrapper {
       height: 100%;
       position: relative;
@@ -195,6 +196,10 @@
         left: 90px;
         opacity: 10%;
 
+        @include max(992px) {
+          height: 50px;
+        }
+
         &:nth-child(2) {
           top: 50px;
           right: 90px;
@@ -205,10 +210,20 @@
   }
   .title {
     padding-block: 90px;
+
+    @include max(992px) {
+      padding-block: 70px;
+    }
+    @include max(768px) {
+      padding-block: 40px;
+    }
     p {
       text-align: center;
       font-size: 36px;
       font-weight: 700;
+      @include max(768px) {
+        font-size: 24px;
+      }
     }
   }
 }
@@ -223,6 +238,10 @@
   color: var(--primary-color) !important;
 }
 
+.block_display {
+  display: block !important;
+  width: unset !important;
+}
 .justify_center {
   justify-content: center;
 }
@@ -231,4 +250,16 @@
   width: 100% !important;
   display: grid !important;
   grid-template-columns: repeat(2, 1fr);
+
+  @include max(992px) {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+// width{
+.w-70 {
+  width: 70%;
+}
+.w-30 {
+  width: 30%;
 }

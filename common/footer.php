@@ -14,8 +14,8 @@
                                 please fill out the form.</h2>
                         </div>
                     </div>
-                    <a href="registration.php" class="secondary-btn border-transparent">
-                        <p>Register Now</p>
+                    <a href="election.php" class="secondary-btn border-transparent">
+                        <p>Election</p>
                         <div class="arrow-btn"></div>
                     </a>
                 </div>

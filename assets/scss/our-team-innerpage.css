@@ -9,7 +9,7 @@
   height: 530px;
   width: 450px;
   float: left;
-  box-shadow: -10px 10px 5px 0px rgb(24, 92, 171);
+  box-shadow: -24px 22px 6px -14px rgb(24, 92, 171);
 }
 .team .team_wrapper .image img {
   border-radius: 5px;
@@ -30,4 +30,4 @@
   font-size: 16px;
   font-weight: 400;
   color: var(--parragraph-color);
-}/*# sourceMappingURL=our-team.css.map */
+}/*# sourceMappingURL=our-team-innerpage.css.map */

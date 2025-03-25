@@ -1,0 +1,274 @@
+.event_inner_page {
+  margin-block: 50px;
+
+  @include max(768px) {
+    margin-block: 30px;
+  }
+
+  .news_innerpage_wrapper {
+    @include max(968px) {
+      display: block !important;
+    }
+    .wrapper {
+      @include max(992px) {
+        width: 100% !important;
+      }
+      .title {
+        h2 {
+          font-size: 48px;
+          font-size: 700;
+
+          @include max(992px) {
+            font-size: 36px;
+          }
+          @include max(768px) {
+            font-size: 24px;
+          }
+        }
+      }
+      .detail_wrapper {
+        margin: 40px 0 30px 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        @include max(768px) {
+          align-items: flex-start;
+          flex-direction: column;
+        }
+
+        .venue {
+          display: grid;
+          grid-template-columns: repeat(2, 1fr);
+          row-gap: 50px;
+          column-gap: 10px;
+          width: 50%;
+
+          @include max(768px) {
+            grid-template-columns: repeat(3, 1fr);
+            row-gap: 10px;
+            width: 100%;
+          }
+
+          // for news
+          .news_date {
+            background: var(--secondary-color);
+            padding: 10px;
+          }
+
+          .venue_detail {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+
+            img {
+              @include max(768px) {
+                background-size: contain;
+                width: 20px;
+                height: 20px;
+              }
+            }
+          }
+        }
+        .share {
+          padding: 15px;
+          border-radius: 5px;
+          background: var(--secondary-color);
+          display: flex;
+          align-items: center;
+          gap: 25px;
+
+          @include max(768px) {
+            padding: 10px;
+            margin-top: 20px;
+          }
+
+          p {
+            font-size: 16px;
+            font-weight: 500;
+          }
+          .social {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+
+            .social_sites {
+              background: white;
+              padding: 8px;
+              border-radius: 8px;
+              transition: all 0.3s ease-in-out;
+              cursor: pointer;
+
+              &:nth-child(1) {
+                .icons {
+                  width: 20px;
+                  height: 20px;
+                  mask-size: contain;
+                  mask-image: url("../icon/facebookicon.svg");
+                  background: var(--primary-color);
+                  transition: all 0.3s ease-in-out;
+                }
+              }
+              &:nth-child(2) {
+                .icons {
+                  width: 20px;
+                  height: 20px;
+                  mask-size: contain;
+                  mask-image: url("../icon/instaicon.svg");
+                  background: var(--primary-color);
+                  transition: all 0.3s ease-in-out;
+                }
+              }
+              &:nth-child(3) {
+                .icons {
+                  width: 20px;
+                  height: 20px;
+                  mask-size: contain;
+                  mask-image: url("../icon/twitter.svg");
+                  background: var(--primary-color);
+                  transition: all 0.3s ease-in-out;
+                }
+              }
+
+              &:hover {
+                background: var(--primary-color);
+
+                .icons {
+                  background: var(--white-color);
+                }
+              }
+            }
+          }
+        }
+      }
+      .img {
+        height: 450px;
+        margin-bottom: 30px;
+
+        @include max(992px) {
+          height: 350px;
+        }
+        @include max(768px) {
+          height: 250px;
+        }
+        img {
+          width: 100%;
+        }
+      }
+    }
+
+    .latest_post {
+      @include max(992px) {
+        width: 100%;
+      }
+      .latest_post_wrapper {
+        padding: 30px 20px;
+        box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.1);
+        .title {
+          h3 {
+            font-size: 20px;
+            font-weight: 500;
+          }
+
+          &::after {
+            content: "";
+            width: 80px;
+            height: 1px;
+            background: var(--primary-color);
+            display: block;
+            margin-top: 15px;
+          }
+        }
+        .post {
+          display: flex;
+          flex-direction: column;
+          gap: 20px;
+          margin-top: 25px;
+
+          .post_wrapper {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            transition: all 0.3s ease-in-out;
+
+            .image {
+              width: 30%;
+              height: 100%;
+              img {
+                width: 100%;
+                border-radius: 3px;
+              }
+            }
+            .discription {
+              width: 70%;
+              h4 {
+                color: var(--black-color);
+                font-size: 14px;
+                font-weight: 700;
+                margin-bottom: 5px;
+                @include textlimit(2);
+              }
+              .calender {
+                display: flex;
+                align-items: center;
+                gap: 5px;
+              }
+            }
+            &:hover .discription h4 {
+              color: var(--primary-color) !important;
+            }
+          }
+        }
+      }
+
+      .program_wrapper {
+        padding: 25px;
+        background: var(--secondary-color);
+
+        h1 {
+          font-size: 20px;
+          font-weight: 700;
+          position: relative;
+          margin-left: 5px;
+
+          &::before {
+            content: "";
+            position: absolute;
+            top: 50%;
+            left: -5px;
+            transform: translateY(-50%);
+            background: var(--primary-color);
+            height: 20px;
+            width: 2px;
+          }
+        }
+        .list {
+          display: flex;
+          flex-direction: column;
+          gap: 20px;
+
+          .list-item {
+            cursor: pointer;
+            margin-top: 20px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            transition: all 0.3s ease-in-out;
+
+            p {
+              color: var(--black-color) !important;
+              font-size: 14px;
+              font-weight: 600;
+            }
+
+            &:hover {
+              p {
+                color: var(--primary-color) !important;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

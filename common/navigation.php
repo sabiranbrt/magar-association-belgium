@@ -29,7 +29,7 @@
                                 <ul role="list" class="sub-menu">
                                     <li><a href="introduction.php">Introduction</a></li>
                                     <li><a href="our-team.php">Our Team</a></li>
-                                    <li><a href="">Message From Director</a></li>
+                                    <li><a href="chairperson.php">Message From Director</a></li>
                                     <li><a href="historical-places.php">Our Historical Place</a></li>
                                 </ul>
                             </li>
@@ -41,7 +41,7 @@
                             <li><a href="contact.php">Contact Us</a></li>
                         </ul>
                     </div>
-                    <a href="#" class="donar-btn">
+                    <a href="donor_list.php" class="donar-btn">
                         <div class="icon-list">
                             <img src="assets/icon/listicon.svg" />
                         </div>

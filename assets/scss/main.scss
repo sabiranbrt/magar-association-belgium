@@ -5,12 +5,16 @@
 @import "./navigation/navigation.scss";
 @import "./navbar/navbar.scss";
 @import "./footer/footer.scss";
-@import "./pages/registration.scss";
-@import "./pages/our-team.scss";
-@import "./pages/historical-places.scss";
-@import "./pages/introduction.scss";
-@import "./pages/event_innerpage.scss";
-@import "./pages/faq.scss";
+@import "registration.scss";
+@import "chairpersion.scss";
+@import "historical-places.scss";
+@import "introduction.scss";
+@import "event_innerpage.scss";
+@import "faq.scss";
+@import "contact.scss";
+@import "gallery.scss";
+@import "donar.scss";
+@import "our_team.scss";
 
 // top_navbar
 .topbar_navbar {
@@ -22,6 +26,7 @@
 .bg-container {
   .bg-img {
     position: relative;
+
     .right_image {
       position: absolute;
       bottom: 0;

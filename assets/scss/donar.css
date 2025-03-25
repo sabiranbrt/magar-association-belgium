@@ -1,0 +1,93 @@
+.donar {
+  margin-block: 50px;
+}
+.donar .donor_list .table {
+  width: 100%;
+}
+.donar .donor_list .table table {
+  width: 100%;
+  border: 1px solid #ccc;
+  border-collapse: collapse;
+}
+.donar .donor_list .table table thead tr {
+  background: var(--primary-color);
+}
+.donar .donor_list .table table thead tr th {
+  padding: 15px 20px;
+  border: 1px solid #ccc;
+  color: var(--white-color);
+  font-size: 20px;
+  font-weight: 700;
+}
+.donar .donor_list .table table thead tr th .th {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.donar .donor_list .table table thead tr th .th p {
+  color: var(--white-color);
+  font-size: 20px;
+  font-weight: 700;
+}
+.donar .donor_list .table table tbody tr td {
+  padding: 40px 20px;
+  border: 1px solid #ccc;
+  color: var(--paragraph-color);
+}
+.donar .donor_list .table table tbody tr td .td {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.donar .donor_list .table table tbody tr td .td .image {
+  height: 60px;
+  width: 60px;
+}
+.donar .donor_list .table table tbody tr td .td .image img {
+  width: 100%;
+  border-radius: 50%;
+}
+.donar .donor_list .pagination {
+  margin-top: 40px;
+}
+.donar .donor_list .pagination .pagination_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  gap: 20px;
+  width: 100%;
+}
+.donar .donor_list .pagination .pagination_wrapper a {
+  font-size: 18px;
+  font-weight: 600;
+  width: 30px;
+  height: 30px;
+  border-radius: 2px;
+  border: 1px solid #656565;
+  color: #656565;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.donar .donor_list .pagination .pagination_wrapper .arrow_prev {
+  width: 15px;
+  height: 15px;
+  background: var(--primary-color);
+  -webkit-mask-size: contain;
+          mask-size: contain;
+  -webkit-mask-image: url("../icon/arrowprev.svg");
+          mask-image: url("../icon/arrowprev.svg");
+  -webkit-mask-repeat: no-repeat;
+          mask-repeat: no-repeat;
+}
+.donar .donor_list .pagination .pagination_wrapper .arrow_next {
+  width: 15px;
+  height: 15px;
+  background: var(--primary-color);
+  -webkit-mask-size: contain;
+          mask-size: contain;
+  -webkit-mask-image: url("../icon/arrownext.svg");
+          mask-image: url("../icon/arrownext.svg");
+  -webkit-mask-repeat: no-repeat;
+          mask-repeat: no-repeat;
+}/*# sourceMappingURL=donar.css.map */

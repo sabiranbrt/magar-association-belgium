@@ -1,0 +1,118 @@
+.donar {
+  margin-block: 50px;
+
+  .donor_list {
+    .table {
+      width: 100%;
+      table {
+        width: 100%;
+        border: 1px solid #ccc;
+        border-collapse: collapse;
+        thead {
+          tr {
+            background: var(--primary-color);
+            th {
+              padding: 15px 20px;
+              border: 1px solid #ccc;
+              color: var(--white-color);
+              font-size: 20px;
+              font-weight: 700;
+
+              @include max(992px) {
+                padding: 10px;
+                font-size: 16px;
+              }
+              .th {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                p {
+                  color: var(--white-color);
+                  font-size: 20px;
+                  font-weight: 700;
+                }
+              }
+            }
+          }
+        }
+        tbody {
+          tr {
+            td {
+              padding: 40px 20px;
+              border: 1px solid #ccc;
+              color: var(--paragraph-color);
+
+              @include max(968px) {
+                padding: 15px 10px;
+              }
+              .td {
+                display: flex;
+                align-items: center;
+                gap: 10px;
+                .image {
+                  height: 60px;
+                  width: 60px;
+
+                  @include max(968px) {
+                    height: 40px;
+                    width: 40px;
+                  }
+                  img {
+                    width: 100%;
+                    border-radius: 50%;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    .pagination {
+      margin-top: 40px;
+      .pagination_wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: end;
+        gap: 20px;
+        width: 100%;
+
+        @include max(968px) {
+          gap: 15px;
+        }
+
+        a {
+          font-size: 18px;
+          font-weight: 600;
+          width: 30px;
+          height: 30px;
+          border-radius: 2px;
+          border: 1px solid #656565;
+          color: #656565;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          @include max(968px) {
+            font-size: 16px;
+          }
+        }
+        .arrow_prev {
+          width: 15px;
+          height: 15px;
+          background: var(--primary-color);
+          mask-size: contain;
+          mask-image: url("../icon/arrowprev.svg");
+          mask-repeat: no-repeat;
+        }
+        .arrow_next {
+          width: 15px;
+          height: 15px;
+          background: var(--primary-color);
+          mask-size: contain;
+          mask-image: url("../icon/arrownext.svg");
+          mask-repeat: no-repeat;
+        }
+      }
+    }
+  }
+}

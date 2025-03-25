@@ -44,7 +44,7 @@
 
                     <div class="readmore-none-wrapper">
                         <div class="txt-icon">
-                            <a class="readmore-none-hist">
+                            <a href="news_innerpage.php" class="readmore-none-hist">
                                 <p>Read More</p>
                                 <img src="assets/icon/btn-arrow-blue.svg" />
                             </a>
@@ -76,7 +76,7 @@
 
                     <div class="readmore-none-wrapper">
                         <div class="txt-icon">
-                            <a class="readmore-none-hist">
+                            <a href="news_innerpage.php" class="readmore-none-hist">
                                 <p>Read More</p>
                                 <img src="assets/icon/btn-arrow-blue.svg" />
                             </a>
@@ -108,7 +108,7 @@
 
                     <div class="readmore-none-wrapper">
                         <div class="txt-icon">
-                            <a class="readmore-none-hist">
+                            <a href="news_innerpage.php" class="readmore-none-hist">
                                 <p>Read More</p>
                                 <img src="assets/icon/btn-arrow-blue.svg" />
                             </a>

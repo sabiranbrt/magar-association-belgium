@@ -20,23 +20,122 @@
     </div>
 </div>
 
-
-<!-- Our Team -->
-<div class="team">
+<div class="our_team">
     <div class="container">
-        <div class="team_wrapper">
-            <div class="image">
-                <img src="assets/image/blogs/news-child.png" alt="">
-            </div>
-            <div class="team_detail">
-                <h3>Silva Demonic</h3>
-                <h4>Chair person</h4>
-                <p>Lorem ipsum dolor sit amet consectetur. Consequat mauris in suspendisse id semper pharetra id sed euismod. Ut amet turpis arcu mauris nisl. Pulvinar amet nunc dolor vitae leo pulvinar gravida aliquet lacus. Gravida ut mauris tristique nibh. Tortor nisl mattis volutpat facilisi fermentum et suspendisse tortor. Sit est porttitor diam turpis sapien convallis mi lectus. Laoreet eget fermentum egestas justo massa.
-                    Aliquam varius porttitor bibendum enim diam. Suspendisse lacus ac amet faucibus amet dui hendrerit urna. Et etiam eget feugiat nulla sed tristique enim fames iaculis. Amet ligula metus at quam congue elementum nec orci. At eu commodo volutpat euismod aenean. In eu sed ullamcorper non amet ipsum ultrices odio justo. Venenatis sed ac scelerisque nulla quis elementum massa ut elit. Aliquet dapibus eleifend id risus in aliquet eu. Etiam ultrices faucibus egestas neque vel dolor id.
-                    Vitae et sit a nec eu nunc quis. Tortor volutpat dictum arcu pharetra elementum in. Nulla donec ultrices ultricies adipiscing tellus sit.
-                    Lorem ipsum dolor sit amet consectetur. Consequat mauris in suspendisse id semper pharetra id sed euismod. Ut amet turpis arcu mauris nisl. Pulvinar amet nunc dolor vitae leo pulvinar gravida aliquet lacus. Gravida ut mauris tristique nibh. Tortor nisl mattis volutpat facilisi fermentum et suspendisse tortor. Sit est porttitor diam turpis sapien convallis mi lectus. Laoreet eget fermentum egestas justo massa.
-                    Aliquam varius porttitor bibendum enim diam. Suspendisse lacus ac amet faucibus amet dui hendrerit urna. Et etiam eget feugiat nulla sed tristique enim fames iaculis. Amet ligula metus at quam congue elementum nec orci. At eu commodo volutpat euismod aenean. In eu sed ullamcorper non amet ipsum ultrices odio justo. Venenatis sed ac scelerisque nulla quis elementum massa ut elit. Aliquet dapibus eleifend id risus in aliquet eu. Etiam ultrices faucibus egestas neque vel dolor id.
-                    Vitae et sit a nec eu nunc quis. Tortor volutpat dictum arcu pharetra elementum in. Nulla donec ultrices ultricies adipiscing tellus sit.</p>
+        <div class="team_box_wrapper">
+            <div class="box_wrapper">
+                <div class="box_box">
+                    <div class="image">
+                        <img src="assets/image//person/cperson.png" alt="">
+                        <div class="social_links">
+                            <div class="links">
+                                <div class="share">
+                                    <div class="share_icon"></div>
+                                    <div class="social-sites">
+                                        <div class="bg-color">
+                                            <div class="site_icon"></div>
+                                        </div>
+                                        <div class="bg-color">
+                                            <div class="site_icon"></div>
+                                        </div>
+                                        <div class="bg-color">
+                                            <div class="site_icon"></div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="team_detail">
+                        <h4>Silver Demonic</h4>
+                        <p>Director</p>
+                    </div>
+                </div>
+                <div class="box_box">
+                    <div class="image">
+                        <img src="assets/image//person/cperson.png" alt="">
+                        <div class="social_links">
+                            <div class="links">
+                                <div class="share">
+                                    <div class="share_icon"></div>
+                                    <div class="social-sites">
+                                        <div class="bg-color">
+                                            <div class="site_icon"></div>
+                                        </div>
+                                        <div class="bg-color">
+                                            <div class="site_icon"></div>
+                                        </div>
+                                        <div class="bg-color">
+                                            <div class="site_icon"></div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="team_detail">
+                        <h4>Silver Demonic</h4>
+                        <p>Director</p>
+                    </div>
+                </div>
+                <div class="box_box">
+                    <div class="image">
+                        <img src="assets/image//person/cperson.png" alt="">
+                        <div class="social_links">
+                            <div class="links">
+                                <div class="share">
+                                    <div class="share_icon"></div>
+                                    <div class="social-sites">
+                                        <div class="bg-color">
+                                            <div class="site_icon"></div>
+                                        </div>
+                                        <div class="bg-color">
+                                            <div class="site_icon"></div>
+                                        </div>
+                                        <div class="bg-color">
+                                            <div class="site_icon"></div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="team_detail">
+                        <h4>Silver Demonic</h4>
+                        <p>Director</p>
+                    </div>
+                </div>
+                <div class="box_box">
+                    <div class="image">
+                        <img src="assets/image//person/cperson.png" alt="">
+                        <div class="social_links">
+                            <div class="links">
+                                <div class="share">
+                                    <div class="share_icon"></div>
+                                    <div class="social-sites">
+                                        <div class="bg-color">
+                                            <div class="site_icon"></div>
+                                        </div>
+                                        <div class="bg-color">
+                                            <div class="site_icon"></div>
+                                        </div>
+                                        <div class="bg-color">
+                                            <div class="site_icon"></div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="team_detail">
+                        <h4>Silver Demonic</h4>
+                        <p>Director</p>
+                    </div>
+                </div>
             </div>
         </div>
     </div>

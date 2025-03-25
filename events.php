@@ -74,7 +74,7 @@
                         <div class="co-txt">
                             <h3>Learning Exactly how we Arrange a Event Learning Exactly how we Arrange a Event</h3>
                         </div>
-                        <a class="primary-btn-text">
+                        <a href="event-innerpage.php" class="primary-btn-text">
                             <p>View Details</p>
                             <div class="arrow-btn"></div>
                         </a>
@@ -104,7 +104,7 @@
                         <div class="co-txt">
                             <h3>Learning Exactly how we Arrange a Event Learning Exactly how we Arrange a Event</h3>
                         </div>
-                        <a class="primary-btn-text">
+                        <a href="event-innerpage.php" class="primary-btn-text">
                             <p>View Details</p>
                             <div class="arrow-btn"></div>
                         </a>

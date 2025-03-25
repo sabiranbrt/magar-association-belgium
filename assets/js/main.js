@@ -99,3 +99,37 @@ faqs.forEach((faq) =>{
     });
 });
 })
+
+
+// gallery
+document.addEventListener("DOMContentLoaded", function () {
+  const tabs = document.querySelectorAll('.tab');
+  const contents = document.querySelectorAll('.content');
+
+  tabs.forEach(tab => {
+    tab.addEventListener('click', () => {
+      // Remove active class from all tabs and contents
+      tabs.forEach(t => t.classList.remove('active'));
+      contents.forEach(c => c.classList.remove('active'));
+
+      // Add active class to clicked tab and corresponding content
+      tab.classList.add('active');
+      const target = document.getElementById(tab.dataset.target);
+      target.classList.add('active');
+    });
+  });
+})
+
+document.addEventListener("DOMContentLoaded", function() {
+  const iframe = document.getElementsByClassName(".videoFrame");
+  let src = iframe.getAttribute("src");
+
+  // Ensure autoplay is disabled
+  if (src.includes("?")) {
+      src += "&autoplay=0";
+  } else {
+      src += "?autoplay=0";
+  }
+
+  iframe.setAttribute("src", src);
+});

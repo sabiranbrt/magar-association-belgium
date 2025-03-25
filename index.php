@@ -66,7 +66,7 @@
                     </p>
                 </div>
                 <div>
-                    <a href="#" class="secondary-btn border-transparent">
+                    <a href="registration.php" class="secondary-btn border-transparent">
                         <p>Register Now</p>
                         <div class="arrow-btn"></div>
                     </a>
@@ -89,8 +89,8 @@
                     </p>
                 </div>
                 <div>
-                    <a class="secondary-btn border-transparent">
-                        <p>Register Now</p>
+                    <a href="election.php" class="secondary-btn border-transparent">
+                        <p>Election</p>
                         <div class="arrow-btn"></div>
                     </a>
                 </div>

@@ -1,4 +1,3 @@
-
 <?php include 'common/header.php'; ?>
 <?php include 'common/navigation.php'; ?>
 
@@ -31,7 +30,7 @@
                     <div class="text-pri">
                         <p>How and when do I register for courses?</p>
                         <div class="svg">
-                        <div class="arrow-down"></div>
+                            <div class="arrow-down"></div>
                         </div>
                     </div>
                     <div class="text-sec">
@@ -45,7 +44,7 @@
                     <div class="text-pri">
                         <p>How and when do I register for courses?</p>
                         <div class="svg">
-                        <div class="arrow-down"></div>
+                            <div class="arrow-down"></div>
                         </div>
                     </div>
                     <div class="text-sec">
@@ -59,7 +58,7 @@
                     <div class="text-pri">
                         <p>How and when do I register for courses?</p>
                         <div class="svg">
-                        <div class="arrow-down"></div>
+                            <div class="arrow-down"></div>
                         </div>
                     </div>
                     <div class="text-sec">

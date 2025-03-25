@@ -41,7 +41,7 @@
                     </div>
 
                     <div class="readmore-none-wrapper">
-                        <a class="secondary-btn-text">
+                        <a href="program_innerpage.php" class="secondary-btn-text">
                             <p>Read More</p>
                             <div class="arrow-btn"></div>
                         </a>
@@ -63,7 +63,7 @@
                     </div>
 
                     <div class="readmore-none-wrapper">
-                        <a class="secondary-btn-text">
+                        <a href="program_innerpage.php" class="secondary-btn-text">
                             <p>Read More</p>
                             <div class="arrow-btn"></div>
                         </a>
@@ -85,7 +85,7 @@
                     </div>
 
                     <div class="readmore-none-wrapper">
-                        <a class="secondary-btn-text">
+                        <a href="program_innerpage.php" class="secondary-btn-text">
                             <p>Read More</p>
                             <div class="arrow-btn"></div>
                         </a>
@@ -107,7 +107,7 @@
                     </div>
 
                     <div class="readmore-none-wrapper">
-                        <a class="secondary-btn-text">
+                        <a href="program_innerpage.php" class="secondary-btn-text">
                             <p>Read More</p>
                             <div class="arrow-btn"></div>
                         </a>
@@ -129,7 +129,7 @@
                     </div>
 
                     <div class="readmore-none-wrapper">
-                        <a class="secondary-btn-text">
+                        <a href="program_innerpage.php" class="secondary-btn-text">
                             <p>Read More</p>
                             <div class="arrow-btn"></div>
                         </a>

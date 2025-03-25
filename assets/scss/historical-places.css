@@ -5,6 +5,7 @@
   font-size: 48px;
   font-weight: 700;
   margin-bottom: 20px;
+  @in;
 }
 .historical_places .wrapper img {
   height: 450px;
