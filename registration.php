@@ -31,7 +31,7 @@
     </div>
     <div class="container">
         <!-- Form Begins -->
-        <form action="#" class="form dropzone" id="my-awesome-dropzone">
+        <form action="/file-upload" class="form">
             <!-- Form item - Basic -->
             <div class="form-step form-step-active">
                 <div class="box_shadow">
@@ -69,12 +69,15 @@
                             <input type="text" name="email" id="email" placeholder="Enter Email" />
                         </div>
                     </div>
-                    <div id="dropzoneExample1" class="js-dropzone dz-dropzone dz-dropzone-boxed">
-
-                        <div class="dz-message py-6">
-                            <p class="d-block">Upload Image or Deag to upload</p>
+                    <!-- Dropzone File Upload -->
+                    <div class="dropzone" id="kt_dropzonejs_example_1">
+                        <div class="dz-message needsclick">
+                            <div class="ms-4">
+                                <h3 class="fs-5 fw-bold text-gray-900 mb-1">+ Upload Image</h3>
+                            </div>
                         </div>
                     </div>
+
                 </div>
                 <div class="date">
                     <div class="d-flex">

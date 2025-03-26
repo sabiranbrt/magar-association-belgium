@@ -39,7 +39,7 @@
                     <div class="gallery-g1-title">
                         <p>Our Events Photo for the awareness programee in KTM</p>
                     </div>
-                    <a class="gallery-g1-txt">
+                    <a href="gallery_innerpage.php" class="gallery-g1-txt">
                         <p>20 Videos</p>
                     </a>
                 </div>
@@ -50,7 +50,7 @@
                     <div class="gallery-g1-title">
                         <p>Our Events Photo for the awareness programee in KTM</p>
                     </div>
-                    <a class="gallery-g1-txt">
+                    <a href="gallery_innerpage.php" class="gallery-g1-txt">
                         <p>20 Photos</p>
                     </a>
                 </div>
@@ -61,7 +61,7 @@
                     <div class="gallery-g1-title">
                         <p>Our Events Photo for the awareness programee in KTM</p>
                     </div>
-                    <a class="gallery-g1-txt">
+                    <a href="gallery_innerpage.php" class="gallery-g1-txt">
                         <p>11 videos</p>
                     </a>
                 </div>
@@ -72,7 +72,7 @@
                     <div class="gallery-g1-title">
                         <p>Our Events Photo for the awareness programee in KTM</p>
                     </div>
-                    <a class="gallery-g1-txt">
+                    <a href="gallery_innerpage.php" class="gallery-g1-txt">
                         <p>20 Photos</p>
                     </a>
                 </div>
@@ -83,7 +83,7 @@
                     <div class="gallery-g1-title">
                         <p>Our Events Photo for the awareness programee in KTM</p>
                     </div>
-                    <a class="gallery-g1-txt">
+                    <a href="gallery_innerpage.php" class="gallery-g1-txt">
                         <p>20 Photos</p>
                     </a>
                 </div>
@@ -94,7 +94,7 @@
                     <div class="gallery-g1-title">
                         <p>Our Events Photo for the awareness programee in KTM</p>
                     </div>
-                    <a class="gallery-g1-txt">
+                    <a href="gallery_innerpage.php" class="gallery-g1-txt">
                         <p>11 videos</p>
                     </a>
                 </div>
@@ -109,7 +109,7 @@
                     <div class="gallery-g1-title">
                         <p>Our Sports week Glimpses of 2080</p>
                     </div>
-                    <a class="gallery-g1-txt">
+                    <a href="gallery_innerpage.php" class="gallery-g1-txt">
                         <p>27 Photos</p>
                     </a>
                 </a>
@@ -120,7 +120,7 @@
                     <div class="gallery-g1-title">
                         <p>Our Picnic Photo of 2081</p>
                     </div>
-                    <a class="gallery-g1-txt">
+                    <a href="gallery_innerpage.php" class="gallery-g1-txt">
                         <p>36 Photos</p>
                     </a>
                 </div>
@@ -131,7 +131,7 @@
                     <div class="gallery-g1-title">
                         <p>Our Events Photo for the awareness programee in KTM</p>
                     </div>
-                    <a class="gallery-g1-txt">
+                    <a href="gallery_innerpage.php" class="gallery-g1-txt">
                         <p>2 Photos</p>
                     </a>
                 </div>
@@ -142,7 +142,7 @@
                     <div class="gallery-g1-title">
                         <p>Our Events Photo for the awareness programee in KTM</p>
                     </div>
-                    <a class="gallery-g1-txt">
+                    <a href="gallery_innerpage.php" class="gallery-g1-txt">
                         <p>27 Photos</p>
                     </a>
                 </div>
@@ -153,7 +153,7 @@
                     <div class="gallery-g1-title">
                         <p>Our Birthday Photos</p>
                     </div>
-                    <a class="gallery-g1-txt">
+                    <a href="gallery_innerpage.php" class="gallery-g1-txt">
                         <p>36 Photos</p>
                     </a>
                 </div>
@@ -164,7 +164,7 @@
                     <div class="gallery-g1-title">
                         <p>Our Picnic Photo of 2080</p>
                     </div>
-                    <a class="gallery-g1-txt">
+                    <a href="gallery_innerpage.php" class="gallery-g1-txt">
                         <p>2 Photos</p>
                     </a>
                 </div>
@@ -180,7 +180,7 @@
                     <div class="gallery-g1-title">
                         <p>Our Events Video for the awareness programee in KTM</p>
                     </div>
-                    <a class="gallery-g1-txt">
+                    <a href="gallery_innerpage.php" class="gallery-g1-txt">
                         <p>20 Videos</p>
                     </a>
                 </div>
@@ -192,7 +192,7 @@
                     <div class="gallery-g1-title">
                         <p>Our Events Video for the awareness programee in KTM</p>
                     </div>
-                    <a class="gallery-g1-txt">
+                    <a href="gallery_innerpage.php" class="gallery-g1-txt">
                         <p>21 Videos</p>
                     </a>
                 </div>
@@ -204,7 +204,7 @@
                     <div class="gallery-g1-title">
                         <p>Our Birthday Videos</p>
                     </div>
-                    <a class="gallery-g1-txt">
+                    <a href="gallery_innerpage.php" class="gallery-g1-txt">
                         <p>7 Videos</p>
                     </a>
                 </div>
@@ -216,7 +216,7 @@
                     <div class="gallery-g1-title">
                         <p>Our Sports Videos</p>
                     </div>
-                    <a class="gallery-g1-txt">
+                    <a href="gallery_innerpage.php" class="gallery-g1-txt">
                         <p>20 Videos</p>
                     </a>
                 </div>
@@ -228,7 +228,7 @@
                     <div class="gallery-g1-title">
                         <p>Our Daily Videos</p>
                     </div>
-                    <a class="gallery-g1-txt">
+                    <a href="gallery_innerpage.php" class="gallery-g1-txt">
                         <p>21 Videos</p>
                     </a>
                 </div>
@@ -240,7 +240,7 @@
                     <div class="gallery-g1-title">
                         <p>Our Events Video for the awareness programee in KTM</p>
                     </div>
-                    <a class="gallery-g1-txt">
+                    <a href="gallery_innerpage.php" class="gallery-g1-txt">
                         <p>7 Videos</p>
                     </a>
                 </div>

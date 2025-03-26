@@ -12,12 +12,19 @@
   @include max(992px) {
     padding: 10px 20px;
   }
+  @include max(768px) {
+    padding: 10px 15px;
+  }
   cursor: pointer;
   p {
     font-size: 16px;
     font-weight: 600;
     color: var(--white-color);
     transition: all 0.3s ease-in-out;
+
+    @include max(768px) {
+      font-size: 14px;
+    }
   }
   .arrow-btn {
     background-image: url("../icon/btn-arrow-white.svg");
@@ -50,11 +57,17 @@
   @include max(992px) {
     padding: 10px 20px;
   }
+  @include max(768px) {
+    padding: 10px 15px;
+  }
   p {
     font-size: 16px;
     font-weight: 600;
     color: var(--primary-color);
     transition: all 0.3s ease-in-out;
+    @include max(768px) {
+      font-size: 14px;
+    }
   }
   .arrow-btn {
     background-image: url("../icon/btn-arrow-blue.svg");
@@ -88,6 +101,9 @@
     font-weight: 600;
     color: var(--primary-color);
     transition: all 0.3s ease-in-out;
+    @include max(768px) {
+      font-size: 14px;
+    }
   }
   .arrow-btn {
     background-image: url("../icon/btn-arrow-blue.svg");
@@ -117,6 +133,9 @@
     font-weight: 600;
     color: var(--black-color);
     transition: all 0.3s ease-in-out;
+    @include max(768px) {
+      font-size: 14px;
+    }
   }
   .arrow-btn {
     background-image: url("../icon/btn-arrow-black.svg");
