@@ -139,7 +139,7 @@
                         sapiente, inventore quo! Neque, minus.
                     </p>
                 </div>
-                <a class="primary-btn">
+                <a href="introduction.php" class="primary-btn">
                     <p>Read More</p>
                     <div class="arrow-btn"></div>
                 </a>

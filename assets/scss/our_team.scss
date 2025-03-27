@@ -17,6 +17,23 @@
 
       .box_box {
         overflow: hidden;
+        transition: all 0.3s ease-in-out;
+
+        &:hover .social-sites {
+          .bg-color:nth-child(1) {
+            z-index: 9 !important;
+            transform: translateY(-382%) !important;
+          }
+          .bg-color:nth-child(2) {
+            z-index: 9 !important;
+            transform: translateY(-256%) !important;
+          }
+          .bg-color:nth-child(3) {
+            z-index: 9 !important;
+            transform: translateY(-130%) !important;
+          }
+        }
+
         .image {
           height: 400px;
           position: relative;
@@ -37,7 +54,7 @@
               .share {
                 cursor: pointer;
                 margin-top: 20px;
-                background: var(--primary-color);
+                background: var(--primary-color) !important;
                 padding: 10px;
                 border-radius: 5px;
 
@@ -65,7 +82,7 @@
                       display: flex;
                       transform: translateY(0);
                       transition: all 0.3s ease-in-out;
-
+                      z-index: -1;
                       .site_icon {
                         width: 20px;
                         height: 20px;
@@ -80,6 +97,7 @@
                       display: flex;
                       transform: translateY(0);
                       transition: all 0.3s ease-in-out;
+                      z-index: -1;
                       .site_icon {
                         width: 20px;
                         height: 20px;
@@ -94,6 +112,7 @@
                       display: flex;
                       transform: translateY(0);
                       transition: all 0.3s ease-in-out;
+                      z-index: -1;
                       .site_icon {
                         width: 20px;
                         height: 20px;
@@ -104,21 +123,6 @@
                     }
                   }
                 }
-                &:hover {
-                  background: var(--black-color);
-
-                  .social-sites {
-                    .bg-color:nth-child(1) {
-                      transform: translateY(-382%) !important;
-                    }
-                    .bg-color:nth-child(2) {
-                      transform: translateY(-256%) !important;
-                    }
-                    .bg-color:nth-child(3) {
-                      transform: translateY(-130%) !important;
-                    }
-                  }
-                }
               }
             }
           }
@@ -126,10 +130,11 @@
 
         .team_detail {
           display: block;
-          background: var(--primary-color);
+          background: var(--black-color);
           border-bottom-left-radius: 2px;
           border-bottom-right-radius: 2px;
           padding: 30px 40px;
+          transition: all 0.3s ease-in-out;
 
           h4 {
             color: var(--white-color);
@@ -142,6 +147,12 @@
             font-weight: 400;
           }
         }
+        &:hover .team_detail {
+          background: var(--primary-color) !important;
+        }
+      }
+      .box_box:hover .share {
+        background: var(--black-color) !important;
       }
     }
   }
