@@ -292,7 +292,7 @@ a {
   left: unset;
 }
 .banner .title {
-  padding-block: 90px;
+  padding-block: 40px;
 }
 @media (max-width: 992px) {
   .banner .title {
@@ -351,6 +351,16 @@ a {
 
 .w-30 {
   width: 30%;
+}
+
+.top_head {
+  background-color: #fff;
+}
+.top_head .wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 50px;
 }
 
 .topnav {
@@ -2052,7 +2062,7 @@ label {
   transform: translateY(-130%) !important;
 }
 .our_team .team_box_wrapper .box_wrapper .box_box .image {
-  height: 400px;
+  height: 275px;
   position: relative;
 }
 .our_team .team_box_wrapper .box_wrapper .box_box .image img {
