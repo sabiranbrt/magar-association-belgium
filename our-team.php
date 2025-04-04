@@ -22,34 +22,159 @@
 
 <div class="our_team">
     <div class="container">
-        <div class="team_box_wrapper">
-            <div class="box_wrapper">
-                <div class="box_box">
-                    <div class="image">
-                        <img src="assets/image/blogs/blogs1.png" alt="">
-                        <div class="social_links">
-                            <div class="links">
-                                <div class="share">
-                                    <div class="share_icon"></div>
-                                    <div class="social-sites">
-                                        <div class="bg-color">
-                                            <div class="site_icon"></div>
+        <div class="team_wrapper">
+            <div class="side_tab">
+                <div class="tab_bar active">
+                    <div class="icons">
+                        
+                    </div>
+                    <div class="date_timeline">
+                        <p>From 2071-2079</p>
+                    </div>
+                </div>
+                <div class="tab_bar">
+                    <div class="icons">
+                        
+                    </div>
+                    <div class="date_timeline">
+                        <p>From 2071-2079</p>
+                    </div>
+                </div>
+                <div class="tab_bar">
+                    <div class="icons">
+                        
+                    </div>
+                    <div class="date_timeline">
+                        <p>From 2071-2079</p>
+                    </div>
+                </div>
+            </div>
+            <div class="team_box_wrapper">
+                <div class="box_wrapper">
+                    <div class="box_box">
+                    <div class="team_detail">
+                            <h4>Silver Demonic</h4>
+                            <p>Director</p>
+                        </div>
+                        <div class="img_wrapper">
+                            <div class="image">
+                                <img src="assets/image/blogs/blogs1.png" alt="">
+                                <div class="social_links">
+                                    <div class="links">
+                                        <div class="share">
+                                            <div class="share_icon"></div>
+                                            <div class="social-sites">
+                                                <div class="bg-color">
+                                                    <div class="site_icon"></div>
+                                                </div>
+                                                <div class="bg-color">
+                                                    <div class="site_icon"></div>
+                                                </div>
+                                                <div class="bg-color">
+                                                    <div class="site_icon"></div>
+                                                </div>
+                                            </div>
                                         </div>
-                                        <div class="bg-color">
-                                            <div class="site_icon"></div>
-                                        </div>
-                                        <div class="bg-color">
-                                            <div class="site_icon"></div>
-                                        </div>
+        
                                     </div>
                                 </div>
-
                             </div>
                         </div>
                     </div>
+                </div>
+                <div class="box_wrapper">
+                    <div class="box_box">
                     <div class="team_detail">
-                        <h4>Silver Demonic</h4>
-                        <p>Director</p>
+                            <h4>Silver Demonic</h4>
+                            <p>Director</p>
+                        </div>
+                        <div class="img_wrapper">
+                            <div class="image">
+                                <img src="assets/image/blogs/blogs1.png" alt="">
+                                <div class="social_links">
+                                    <div class="links">
+                                        <div class="share">
+                                            <div class="share_icon"></div>
+                                            <div class="social-sites">
+                                                <div class="bg-color">
+                                                    <div class="site_icon"></div>
+                                                </div>
+                                                <div class="bg-color">
+                                                    <div class="site_icon"></div>
+                                                </div>
+                                                <div class="bg-color">
+                                                    <div class="site_icon"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="box_wrapper">
+                    <div class="box_box">
+                    <div class="team_detail">
+                            <h4>Silver Demonic</h4>
+                            <p>Director</p>
+                        </div>
+                        <div class="img_wrapper">
+                            <div class="image">
+                                <img src="assets/image/blogs/blogs1.png" alt="">
+                                <div class="social_links">
+                                    <div class="links">
+                                        <div class="share">
+                                            <div class="share_icon"></div>
+                                            <div class="social-sites">
+                                                <div class="bg-color">
+                                                    <div class="site_icon"></div>
+                                                </div>
+                                                <div class="bg-color">
+                                                    <div class="site_icon"></div>
+                                                </div>
+                                                <div class="bg-color">
+                                                    <div class="site_icon"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="box_wrapper">
+                    <div class="box_box">
+                    <div class="team_detail">
+                            <h4>Silver Demonic</h4>
+                            <p>Director</p>
+                        </div>
+                        <div class="img_wrapper">
+                            <div class="image">
+                                <img src="assets/image/blogs/blogs1.png" alt="">
+                                <div class="social_links">
+                                    <div class="links">
+                                        <div class="share">
+                                            <div class="share_icon"></div>
+                                            <div class="social-sites">
+                                                <div class="bg-color">
+                                                    <div class="site_icon"></div>
+                                                </div>
+                                                <div class="bg-color">
+                                                    <div class="site_icon"></div>
+                                                </div>
+                                                <div class="bg-color">
+                                                    <div class="site_icon"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

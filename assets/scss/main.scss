@@ -35,15 +35,19 @@
       z-index: -1;
       opacity: 6%;
     }
+
     .img-steaker {
       position: absolute;
       top: 0;
       z-index: -1;
       height: 100%;
       width: 100%;
+
       img {
         width: 100%;
+        height: 250px;
       }
+
       .bg-color {
         position: absolute;
         top: 0;
@@ -51,6 +55,7 @@
         height: 100%;
         background: rgba(225, 239, 255, 0.5);
       }
+
       .png-img-i {
         position: absolute;
         top: 0;
@@ -58,6 +63,7 @@
         height: 470px;
         width: 400px;
       }
+
       .png-img-ii {
         position: absolute;
         bottom: 0;
@@ -69,6 +75,7 @@
 
     .bg-lt-rt {
       position: relative;
+
       .left_image {
         position: absolute;
         top: 161px;
@@ -81,6 +88,7 @@
           height: 200px;
         }
       }
+
       .bg-lt-rt-main {
         padding-block: 70px;
         display: flex;
@@ -91,6 +99,7 @@
         @include max(992px) {
           padding-block: 100px;
         }
+
         @include max(768px) {
           flex-direction: column;
           align-items: center;
@@ -103,6 +112,7 @@
           @include max(768px) {
             width: 100%;
           }
+
           .bg-header {
             h1 {
               padding-bottom: 15px;
@@ -118,21 +128,25 @@
                 font-size: 24px;
                 line-height: 30px;
               }
+
               .highlight {
                 color: var(--primary-color);
               }
             }
           }
+
           .bg-txt {
             padding-bottom: 40px;
 
             @include max(992px) {
               padding-bottom: 30px;
             }
+
             p {
               @include textlimit(3);
             }
           }
+
           .bg-btn {
             background-color: var(--primary-color);
             padding: 15px 25px;
@@ -141,9 +155,11 @@
             align-items: center;
             border-radius: 48px;
             cursor: pointer;
+
             p {
               color: var(--white-color);
             }
+            
             .fa-solid {
               color: var(--white-color);
             }
